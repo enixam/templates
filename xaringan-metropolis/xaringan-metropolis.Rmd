@@ -1,0 +1,133 @@
+---
+title: "大家好"
+subtitle: "Metropolis theme"
+author: "闫求识"
+date: "2099/12/12"
+output: 
+  xaringan::moon_reader:
+    css:
+      - default
+      - mtheme.css
+      - fonts_mtheme.css
+    nature: 
+      beforeInit: "macros.js"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+# How to use it
+
+Specify `metropolis` and `metropolis-fonts` in the `css` argument of `moon_reader()`
+
+```yaml
+output: 
+  xaringan::moon_reader:
+    css: [default, metropolis, metropolis-fonts]
+```
+.pull-left[
+好的
+]
+
+.pull-right[
+哈哈
+]
+
+---
+class: inverse, mline, center, middle
+
+# Get Started
+
+---
+
+# Orange break lines
+
+An orange break line is automatically added for you under the subtitle in the title slide. If you want an orange break line in a slide with class `inverse`, you need to add the class `mline` too. E.g.,
+
+```yaml
+class: inverse, mline, center, middle
+```
+
+You can also manually insert an orange break line anywhere with
+
+```html
+<hr>
+```
+
+Simply put this code directly in the `title` field of the YAML header or in the body of any slide. E.g.,
+
+<hr>
+
+---
+
+# Additional tweaks
+
+## Changing font sizes
+
+This css comes with some classes that let you change the font-size of the coding font:
+ 
+.code60[
+```{r, eval = FALSE}
+.code60[some R code with 60 % font size]
+```
+]
+ 
+.code100[
+```{r, eval = FALSE}
+.code100[some R code with 100 % font size]
+```
+]
+
+The same applies to the non-coding font by using e.g. `.font60[]`:
+
+.font60[
+xaringan is so powerful!
+]
+
+... or `.font150[]`
+ 
+.font150[
+xaringan is so powerful!
+]
+
+---
+
+# Additional tweaks
+
+## Inline code highlighting
+
+I've set the look of inline code highlighting similar to the one used at `Github` with a grey background. 
+
+---
+
+# Differences to Metropolis Beamer
+  
+* No support of incremental orange break lines in break slides 
+
+* Style of slide numbering 
+
+---
+
+# Header 1
+
+## Header 2
+
+Header 2
+
+### Header 3
+
+Header 3
+
+#### Header 4
+
+Header 4
+
+---
+
+class: clear
+
+If you use `class: clear` for a slide, you can have a slide without the colored top. 

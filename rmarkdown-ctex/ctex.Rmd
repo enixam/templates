@@ -1,0 +1,146 @@
+---
+title: "泊松回归模型及其变体简介"
+author: "[闫求识](https://qiushi.netlify.com)"
+date: "2019-12-01"
+geometry: margin=1.18in
+fontsize: 12pt
+linestretch: 1.5
+links-as-notes: yes
+documentclass: ctexart
+output:
+  rticles::ctex:
+    fig_caption: yes
+    number_sections: yes
+    toc: yes
+    toc_depth: 3
+  html_document:
+    toc: true
+    toc_float: true
+    includes:
+      before_body: header.html
+      after_body: footer.html
+    highlightstyle: github
+bibliography: bib.bib
+biblio-style: "apalike"
+link-citations: true
+colorlinks: yes
+classoption: "a4paper,oneside,"
+---
+
+# 泊松对数线性模型回顾   {#poisson}
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(pscl)
+knitr::opts_chunk$set(warning=F,message=F,comment="#>")
+```
+
+
+在医学、社会科学、经济学、汽车保险等领域内常常涉及大量的计数数据。如特定时间内某病症的患者数量，森林火灾发生次数，交通事故次数等。泊松对数线性模型是一种常见以计数变量为因变量的回归模型，是广义线性模型中重要的组成部分，对于 $n$ 个独立观测的样本点 $y_1,...y_n$，假定其分别来自参数为$\mu_1,\ldots,\mu_n$的泊松分布，即有：  
+
+$$Y_i \sim P(\mu_i)$$
+
+由泊松分布的性质，有 $E(Y_i) = \mu_i$, 我们要为$E(Y_i)$ 即 $μ_i$ 找到一个链接函数（link function）。承接 Logistic 回归的思想，最常使用的就是以自然常数 $e$ 为底数的对数变换$log$，因为它将一个定义在$(0,+\infty)$的随机变量$Y$映射到了整个实数轴上。即对于泊松变量 $Y$ 建立的广义线性模型为：
+
+$$log[E(Y)]= log(\mu) = \beta_0+\beta_1 + \cdots +\beta_px_p \;\;(1)$$
+
+其中，$\beta_0+\beta_1 + \cdots+\beta_px_p$ 是系统部分(Systematic Component)，$Y$ 是随机部分(Random Component)，$logx$是链接函数(Link Function)。该模型常被称为**泊松对数线性模型**。
+
+采用最大似然法的拟合方法如下：首先，我们知道，若随机变量 $Y$ 服从参数为 $\mu$ 的泊松分布，有概率分布：  
+
+$$ P(Y = y) = \frac{e^{-\mu}\mu^{y}}{y!} \;\;(2)$$  
+
+则某次试验中，样本 $y_1,\ldots,y_n$ 对应的对数似然函数为：  
+
+$$logL = log\prod_{i=1}^n{\frac{e^{-\mu_i}\mu_i^{y_i}}{y_i!}} = \sum_{i=1}^n{-\mu_i} + y_ilog\mu_i  - \sum_{i=1}^nlogy_i \;\;(3)$$
+
+将 $(1)$ 式带入 $(3)$式，使$(3)$取得最大值的一组解 $(\beta_0,\beta_1,\ldots,\beta_p)$ 即是最大似然估计 $\hat{\beta}_0, \hat{\beta}_1, \ldots, \hat{\beta}_n$, 实际问题中一般采用迭代方法求出。   
+
+# 比率泊松回归模型
+
+**比率泊松回归**是泊松回归的一种常见变体，当某种类型的时间在一定时间、空间或者其他的规模发生时，对事件在单位规模上的**发生率**(rate)进行建模比直接分析发生次数本身更有意义。例如，在研究一些一年内城市发生的凶杀事件时，因为各个城市的人口数量不同，凶杀次数没有直接可比性，这时凶杀率=凶杀次数/人口是一个可以直接进行建模的统计量。再比如，当对泊松分布的不同观测经历时间不同时，也要将发生次数调整为单位时间内的发生率。记发生率为 $r$, 规模为 $t$，发生次数的期望为 $\mu$，以下关系成立：  
+
+$$r \times t  = \mu \;\;(4)$$
+常见的规模变量有时间、面积、人口等。  
+
+为了得到比率泊松回归模型，我们只需要在泊松回归模型的右侧加上一项规模变量的对数，变为：  
+
+$$log\mu = \beta_0+\beta_1 x_1+\cdots+\beta_px_p + logti \;\;(5)$$
+
+^[$logti$常被称作抵消项(offset)]移项后等式左侧变为 $log\frac{\mu}{t} = logr$，从而模型的因变量变为了我们想要的发生率，比率泊松回归模型即为：  
+
+$$log\frac{\mu}{t}=logr=\beta_0+\beta_1 x_1+\cdots+\beta_px_p \;\;(6)$$
+
+在参数的估计上，与之前同理，将$(5)$式带入$(3)$式求得$\beta_0,\beta_1,\ldots,\beta_p$最大似然估计值。  
+
+
+# 零膨胀泊松回归  
+
+科学的进步往往在现实和即有认识的矛盾中产生的。当假设感兴趣的变量服从泊松分布时，研究者常常发现某一特定值大量出现，最为常见的是出现了大量的零值，即取值为 $0$ 的比例远远大于其他取值的比例，特别是大于泊松分布在 $Y = 0$ 处的期望, 这种现象被称为**零膨胀**[@wangbing]。  
+
+零膨胀现象广泛出现在医疗、保险、金融等多个领域，例如：针对某个地区居民每天的吸烟次数作统计分析，因为大多数人不吸烟，故在观测数据中将出现大量的零值；或者是某意外保险的索赔次数，一年内住院治疗的次数等等。  
+
+针对这种现象，@lambert1992zero 提出了**零膨胀泊松回归模型**(Zero-Inflated Poisson, 简记 ZIP)，将其应用于电子制造业 的质量控制研究中，由于该模型结构合理，处理方便，从而得到了广泛认可。1998 年， @ridout1998models 发现 ZIP 回归模型不能很好地拟合同时具有过度离散(overdisperson)和零膨胀现象的计数数据，于是在该基础上提出了零膨胀负二项回归模型。时至今日，零膨胀泊松回归已经衍生出了大量变体，如 0 膨胀几何回归，1 膨胀泊松回归 ( $Y = 1$处膨胀)，0 - k 膨胀泊松回归 ( $Y = 0$ 和 $Y = k$ 同时膨胀)
+[@wpx]。 由于篇幅有限，本文暂且只关注 Lambert 提出的"经典"零膨胀泊松回归模型。 
+
+一般来说，出现零膨胀现象的主要原因归结为一点，研究总体在我们所关注的事件上的概率特征不是同质的，而是可以划分为多个子群体(subgroup)。在最简单的情况下，假设总体中含有两个子群体，分别称为 **susceptible** 和 **immune**[@bilder2014analysis]。对于 susceptible 组中的个体来说，事件的发生次数 $Y$ 就服从一般的泊松分布：  ^[ZIP 模型的一种变体是 Hurdal 模型，后者认为对于 susceptible 组总有 $Y \ne 0$，从而该组中 $Y$ 服从左截断泊松分布。更多细节可见[@bilder2014analysis]]
+
+$$ P(Y \le y) = \frac{e^{-\mu}\mu^{y}}{y!} \;\; for\;members\;in\;susceptible$$  
+
+但是，immune 组具有某种特性，使得我们关心的事件不可能发生(非烟民，非患者，没有汽车)，即有：  
+
+$$P(Y = 0) = 1 \;\; for\;members\;in\;immune$$
+我们也可以认为对于 immune 组，随机变量 $Y$ 服从退化分布，记作：  
+
+$$Y \sim Degenerate(0) \;\; for\;members\;in\;immune$$
+
+现在就可以解释为何出现零膨胀的现象，泊松模型对于 **susceptible** 组的拟合是基本准确的，但是它不能正确预测 **immune**组的计数，具体地，泊松模型低估了 immune 组中$Y=0$的概率，高估了 immune 组中$Y=1, 2, \cdots$的概率（这些概率在 immune 组中是 0)。  
+
+Lambert 提出的修正模型如下: 假设总体中 immune 组所占的比例为 $\pi$（膨胀系数）^[另一种思路是假设某个个体属于 susceptible 组的概率是 $\pi$] ; ），则 susceptible 组所占的比例就是1-π . 现在可以将$Y$服从的概率分布刻画为：  
+
+$$ Y \sim \left\{
+\begin{aligned}
+Degenerate(0) \qquad with\; probability\; \pi \\
+P(\mu) \qquad with\; probability\; 1- \pi \\
+\end{aligned}
+\right.$$
+
+
+根据全概率公式，导出 $Y$ 的概率质量函数：  
+```{r,echo=F,out.width="65%"}
+knitr::include_graphics("equ7.png")
+```
+
+
+
+可以看出，当 $\pi = 0$ 时，模型简化为 \@ref(poisson) 中的泊松分布。  
+
+在参数估计上，如果要知道 $P(Y = y)$，必须同时知道$\pi$ 和 $\mu$，所以零膨胀泊松模型的响应应该有两个。 个自然的想法是根据 $\pi$和 $\mu$的不同特性分别构造两个模型，对$\pi$构造 Logistic 模型，对 $\mu$ 构建泊松回归模型。  
+
+
+$$
+probability  \; function: log\frac{\pi}{1-\pi} = \gamma_0 + \gamma_1z_1 + \cdots + \gamma_rz_r  \qquad (8)
+$$
+
+
+$$
+mean  \; function: og\mu = \beta_0 + \beta_1x_1 + \cdots + \beta_rx_r \qquad (9)
+$$
+
+其中$\gamma_0,\gamma_1,\ldots,\gamma_r$和 $\beta_0 ,\beta_1 ,\ldots,\beta_p$分别是两个模型中的未知参数，$z_1,\ldots,z_r$ 和 $x_1,\ldots,x_p$分别是两个模型中的自变量，注意两组未必是相同的，这意味着可能有些变量用来拟合 $\pi$，却不用来拟合 $\mu$，有些变量用来预测 $\mu$，却不用来预测$\pi$。当然，也不排除mean function 和 probability function 中的自变量是完全重合的这种情况。  
+
+在参数的估计上，只要把 $(8)、(9)$带入 $(7)$而后构建对数似然函数，求最大值便可，这里就不再赘述了。  
+
+
+## 案例： 
+
+```{r}
+eggdata <- read.table("BeetleEggCrowding.txt", header = T) %>% 
+  as_tibble()
+eggdata
+```
+
+
+
+
+# 参考文献  

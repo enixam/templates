@@ -1,5 +1,5 @@
 ---
-title: "泊松回归模型及其变体简介"
+title: ""
 author: "[闫求识](https://qiushi.netlify.com)"
 date: "2019-12-01"
 geometry: margin=1.18in

@@ -10,6 +10,7 @@ colorlinks: yes
 new_session: true
 lot: yes
 lof: yes
+nocite: '@*'
 geometry: [b5paper, tmargin=2.5cm, bmargin=2.5cm, lmargin=2.5cm, rmargin=1.5cm]
 site: bookdown::bookdown_site
 #cover-image: images/cover.jpg

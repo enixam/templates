@@ -10,6 +10,7 @@ logo: "logo.jpg"
 bibliography: bib.bib
 link-citations: true
 biblio-style: "apalike"
+nocite: '@*'
 output:
   epuRate::epurate:
     toc: TRUE

@@ -26,6 +26,7 @@ bibliography: bib.bib
 biblio-style: "apalike"
 link-citations: true
 colorlinks: yes
+nocite: '@*'
 classoption: "a4paper,oneside,"
 ---
 

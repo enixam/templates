@@ -1,10 +1,9 @@
 bookdown::gitbook:
-  toc_depth: 3
   dev: svglite
   css: css/style.css
   config:
     toc:
-      collapse: none
+      collapse: section
       before: |
         <li><a href="./"></a></li>
       after: |

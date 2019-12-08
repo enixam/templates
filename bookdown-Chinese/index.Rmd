@@ -7,7 +7,6 @@ bibliography: [bib.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
 colorlinks: yes
-new_session: true
 lot: yes
 lof: yes
 nocite: '@*'

@@ -1,5 +1,11 @@
-book_filename: bookdown
-clean: [packages.bib, bookdown.bbl]
+book_filename: new_book
+
+new_session: yes
+
+rmd_files: [
+
+]
+
 language:
   label:
     fig: "图 "

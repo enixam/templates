@@ -3,7 +3,7 @@ book_filename: new_book
 new_session: yes
 
 rmd_files: [
-
+  "index.Rmd",
 ]
 
 language:

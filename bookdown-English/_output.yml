@@ -1,16 +1,16 @@
 bookdown::gitbook:
-  dev: svglite
   css: css/style.css
   config:
+    fontsettings:
+      theme: white
+      family: serif
+      size: 2
     toc:
       collapse: section
       before: |
-        <li><a href="./"></a></li>
+        <li><a href="./">A Bookdown Template</a></li>
       after: |
-        <li><a href="https://bookdown.org" target="blank">written with bookdown</a></li>
+        <li><a href="https://github.com/rstudio/bookdown" target="blank">Written with bookdown</a></li>
     edit:
-      link: 
+      link: https://github.com/rstudio/bookdown/edit/master/book/%s
       text: "Edit"
-
-
-

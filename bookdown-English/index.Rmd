@@ -1,19 +1,37 @@
 --- 
-title: 'A Book'
-author: "Maxine"
+title: "A Minimal Book Example"
+author: "Qiushi Yan"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [bib.bib, packages.bib]
-biblio-style: "apalike"
-link-citations: true
-nocite: '@*'
-#cover-image: images/cover.jpg
---- 
+biblio-style: apalike
+link-citations: yes
+#nocite: '@*'
+description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
+---
+
+# Prerequisites
+
+This is a theorem
+```{theorem}
+$a^2 + b^2 = c^2$.
+```
 
 
-# Preface {-}  
+> this is a blockquote
+
+```{block2, type="todo"}
+This is a custom block.
+```
 
 
 
+To compile this example to PDF, you need XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <https://yihui.org/tinytex/>.
 
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```

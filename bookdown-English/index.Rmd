@@ -20,6 +20,8 @@ $a^2 + b^2 = c^2$.
 
 
 > this is a blockquote
+> 
+>**---Qiushi Yan**
 
 ```{block2, type="todo"}
 This is a custom block.
@@ -35,3 +37,6 @@ knitr::write_bib(c(
   .packages(), 'bookdown', 'knitr', 'rmarkdown'
 ), 'packages.bib')
 ```
+
+
+You can write citations, too. For example, we are using the **bookdown** package [@R-bookdown] in this sample book, which was built on top of R Markdown and **knitr** [@xie2015].

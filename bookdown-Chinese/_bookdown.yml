@@ -13,3 +13,6 @@ language:
   ui:
     edit: "编辑"
     chapter_name: ["第 ", " 章"]
+
+
+before_chapter_script: "_common.R"

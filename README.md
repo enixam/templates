@@ -1,4 +1,4 @@
-Convenient templates to create bookdown, rmarkdown and xaringan presentation.  
+Convenient templates to create bookdown, rmarkdown project and xaringan presentation.  
 
 ## Credits 
 Many thanks to the creators of these templates (I changed a bit of css settings and yaml metadata according to my personal information)

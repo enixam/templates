@@ -1,6 +1,6 @@
 ---
 title: ""
-author: "[闫求识](https://qiushi.netlify.com)"
+author: "[闫求识](https://qiushi.rbind.io)"
 date: "2019-12-01"
 geometry: margin=1.18in
 fontsize: 12pt

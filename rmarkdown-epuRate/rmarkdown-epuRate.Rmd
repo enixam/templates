@@ -1,6 +1,6 @@
 ---
 title: "又是元气满满的一天呢"
-author: "[闫求识](https://qiushi.netlify.com/)"
+author: "[闫求识](https://qiushi.rbind.io/)"
 date: "`r format(Sys.time(), '%d %B %Y')`"
 mail: "565702994@qq.com"
 linkedin: "求识-闫-893a48194"

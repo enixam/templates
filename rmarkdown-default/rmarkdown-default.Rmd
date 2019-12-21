@@ -1,0 +1,18 @@
+---
+title: "A rmarkdown default template"
+author: "[闫求识](https://qiushi.rbind.io/)"
+date: "`r Sys.Date()`"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    includes: 
+      before_body: header.html
+    css: style.css
+bibliography: bib.bib
+biblio-style: "apalike"
+link-citations: true
+#nocite: '@*'
+---
+
+# Hello rmarkdown 

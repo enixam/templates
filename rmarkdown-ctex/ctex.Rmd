@@ -22,7 +22,7 @@ output:
       before_body: header.html
       after_body: footer.html
     highlightstyle: github
-bibliography: bib.bib
+bibliography: references.bib
 biblio-style: "apalike"
 link-citations: true
 colorlinks: yes

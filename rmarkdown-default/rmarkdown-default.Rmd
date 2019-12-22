@@ -9,7 +9,7 @@ output:
     includes: 
       before_body: header.html
     css: style.css
-bibliography: bib.bib
+bibliography: references.bib
 biblio-style: "apalike"
 link-citations: true
 #nocite: '@*'

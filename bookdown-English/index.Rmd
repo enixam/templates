@@ -4,7 +4,7 @@ author: "Qiushi Yan"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
-bibliography: [bib.bib, packages.bib]
+bibliography: [references.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
 #github-repo: enixam/

@@ -4,6 +4,9 @@ new_session: yes
 
 rmd_files: [
   "index.Rmd",
+
+
+  "references.Rmd",
 ]
 
 language:

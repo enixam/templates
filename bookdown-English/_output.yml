@@ -8,7 +8,7 @@ bookdown::gitbook:
     toc:
       collapse: section
       before: |
-        <li><a href="./">A Bookdown Template</a></li>
+        <li><a href="./">A Book</a></li>
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Written with bookdown</a></li>
     edit:

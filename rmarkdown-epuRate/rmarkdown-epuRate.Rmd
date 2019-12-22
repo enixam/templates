@@ -7,7 +7,7 @@ linkedin: "求识-闫-893a48194"
 twitter: "Qiushi14252698"
 github: "enixam"
 logo: "logo.jpg"
-bibliography: bib.bib
+bibliography: references.bib
 link-citations: true
 biblio-style: "apalike"
 #nocite: '@*'

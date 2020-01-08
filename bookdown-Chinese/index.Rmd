@@ -1,5 +1,5 @@
 --- 
-title: "A Book"
+title: "A Chinese Bookdown Template"
 author: "Maxine"
 date: "`r Sys.Date()`"
 documentclass: ctexbook

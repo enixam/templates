@@ -1,0 +1,18 @@
+book_filename: "bookdown-msmb"
+delete_merged_file: true
+language:
+  ui:
+    chapter_name: "Chapter "
+
+
+before_chapter_script: "_common.R"
+
+rmd_files: [
+  "index.Rmd",
+  "tables.Rmd",
+  "questions.Rmd",
+  "figures.Rmd",
+  
+  
+  "references.Rmd"
+]

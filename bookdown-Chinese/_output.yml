@@ -9,6 +9,8 @@ bookdown::gitbook:
         <li><a href="https://bookdown.org" target="blank">written with bookdown</a></li>
     download: "pdf"
     edit:
+      link: https://github.com/enixam//edit/master/%s
+      text: "Edit"
     sharing:
       github: yes
       facebook: no

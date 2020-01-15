@@ -8,9 +8,9 @@ bookdown::gitbook:
     toc:
       collapse: section
       before: |
-        <li><a href="./">A Book</a></li>
+        <li><a href="./"></a></li>
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Written with bookdown</a></li>
     edit:
-      link: https://github.com/rstudio/bookdown/edit/master/book/%s
+      link: 
       text: "Edit"

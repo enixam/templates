@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "ctex Rmarkdown 模板"
 author: "[闫求识](https://qiushi.rbind.io)"
 date: "`r Sys.Date()`"
 geometry: margin=1.18in

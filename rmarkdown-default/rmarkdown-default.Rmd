@@ -1,18 +1,24 @@
 ---
-title: "A rmarkdown default template"
+title: "An rmarkdown default template"
 author: "[闫求识](https://qiushi.rbind.io/)"
 date: "`r Sys.Date()`"
 output: 
   html_document:
     toc: true
     toc_float: true
+    toc_depth: 3
+    theme: journal
     includes: 
       before_body: header.html
     css: style.css
 bibliography: references.bib
 biblio-style: "apalike"
 link-citations: true
+#abstract: |
+#  This is an abstract.  
 #nocite: '@*'
 ---
 
-# Hello rmarkdown 
+# Hello rmarkdown   
+
+

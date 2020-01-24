@@ -1,5 +1,5 @@
 ---
-title: "An rmarkdown default template"
+title: "An Rmarkdown default template"
 author: "[闫求识](https://qiushi.rbind.io/)"
 date: "`r Sys.Date()`"
 output: 

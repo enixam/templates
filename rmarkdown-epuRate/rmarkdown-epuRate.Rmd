@@ -1,11 +1,11 @@
 ---
 title: "又是元气满满的一天呢"
-author: "[闫求识](https://qiushi.rbind.io/)"
+author: ""
 date: "`r format(Sys.time(), '%d %B %Y')`"
 mail: "565702994@qq.com"
-linkedin: "求识-闫-893a48194"
-twitter: "Qiushi14252698"
-github: "enixam"
+linkedin: ""
+twitter: ""
+github: ""
 logo: "logo.jpg"
 bibliography: references.bib
 link-citations: true

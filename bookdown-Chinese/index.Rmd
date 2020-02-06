@@ -1,6 +1,6 @@
 --- 
 title: "A Chinese Bookdown Template"
-author: "Maxine"
+author: ""
 date: "`r Sys.Date()`"
 documentclass: ctexbook
 bibliography: [references.bib, packages.bib]

@@ -1,10 +1,11 @@
 bookdown::gitbook:
+  split_by: section
   css: css/style.css
   config:
-#    fontsettings:
-#      theme: white
-#      family: serif
-#      size: 2
+    fontsettings:
+      theme: white
+      family: serif
+      size: 2
     toc:
       collapse: section
       before: |

@@ -3,6 +3,7 @@
 .RData
 .Ruserdata
 .Rprofile
+.rds
 _book
 _bookdown_files
 rsconnect

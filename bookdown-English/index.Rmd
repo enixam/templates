@@ -15,29 +15,3 @@ link-citations: yes
 # Prerequisites
 
 This is a theorem
-```{theorem}
-$a^2 + b^2 = c^2$.
-```
-
-
-> this is a blockquote
-> 
->**---Qiushi Yan**
-
-```{block2, type="todo"}
-This is a custom block.
-```
-
-
-
-To compile this example to PDF, you need XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <https://yihui.org/tinytex/>.
-
-```{r include=FALSE}
-# automatically create a bib database for R packages
-knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown'
-), 'packages.bib')
-```
-
-
-You can write citations, too. For example, we are using the **bookdown** package [@R-bookdown] in this sample book, which was built on top of R Markdown and **knitr** [@xie2015].

@@ -11,7 +11,9 @@ bookdown::gitbook:
       before: |
         <li><a href="./"></a></li>
       after: |
-        <li><a href="https://github.com/rstudio/bookdown" target="blank">Written with bookdown</a></li>
+        <li>
+          <a href="https://github.com/rstudio/bookdown" target="blank">Written with bookdown</a>
+        </li>
     edit:
       link: https://github.com/user/repo/edit/master/%s
       text: "Edit"

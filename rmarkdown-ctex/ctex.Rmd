@@ -1,5 +1,5 @@
 ---
-title: "ctex Rmarkdown 模板"
+title: "R Markdown pdf 中文报告模板"
 author: ""
 date: "`r Sys.Date()`"
 geometry: margin=1.18in
@@ -31,6 +31,6 @@ classoption: "a4paper,oneside,"
 ---
 
 
+# 前言
 
-
-# 参考文献  
+# 参考文献

@@ -12,7 +12,3 @@ knitr::opts_chunk$set(
   message = F,
   warning = F
 )
-
-library(tidyverse)
-
-options(dplyr.print_min = 6, dplyr.print_max = 6)

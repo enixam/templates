@@ -1,4 +1,4 @@
-book_filename: new_book
+book_filename: 'my_book'
 
 new_session: yes
 
@@ -17,5 +17,6 @@ language:
     edit: "编辑"
     chapter_name: ["第 ", " 章"]
 
+output_dir: 'docs'
 
 before_chapter_script: "_common.R"

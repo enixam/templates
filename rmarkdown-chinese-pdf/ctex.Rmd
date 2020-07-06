@@ -10,7 +10,9 @@ lof: true
 lot: true
 documentclass: ctexart
 output:
-  rticles::ctex:
+output:
+  bookdown::pdf_book:
+    base_format: rticles::ctex
     fig_caption: yes
     number_sections: yes
     toc: yes

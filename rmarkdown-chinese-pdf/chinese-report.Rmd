@@ -1,0 +1,83 @@
+---
+title: "R Markdown pdf 中文报告模板"
+author: ""
+date: "`r Sys.Date()`"
+
+output:
+  bookdown::pdf_book:
+    base_format: rticles::ctex
+    fig_caption: yes
+    number_sections: yes
+    toc: yes
+lof: true
+lot: true
+documentclass: ctexart
+geometry: margin=1.18in
+fontsize: 12pt
+linestretch: 1.5
+links-as-notes: yes
+bibliography: references.bib
+biblio-style: "apalike"
+link-citations: true
+colorlinks: yes
+#nocite: '@*'
+classoption: a4paper,oneside
+---
+
+# Markdown 书写
+
+这句话很**重要** ^[使用脚注] 
+
+> All models are wrong, but some are useful. 
+
+
+
+# 交叉引用
+
+图表 
+\@ref(fig:diamond-plot)
+
+```{r diamond-plot, fig.cap = "一幅散点图", message = FALSE}
+library(dplyr)
+library(ggplot2)
+
+diamonds %>% 
+  slice_sample(n = 500) %>%
+  ggplot() + 
+  geom_point(aes(carat, price, color = cut)) + 
+  theme_minimal()
+```
+
+
+请看密度函数公式 \@ref(eq:norm)
+
+\begin{equation}
+(\#eq:norm)
+f(x) = \frac{1}{\sqrt{2\pi}\sigma} e^{\frac{-(x - \mu)^2}{\sigma^2}}
+\end{equation}
+
+
+定理 \@ref(thm:pyth) 表明 ....
+ 
+```{theorem, pyth, name="勾股定理", echo = TRUE}
+斜边的屏方等于两个直角边的平方和
+
+$$a^2 + b^2 = c^2$$
+```
+
+
+
+
+# 表格
+
+请看表格 \@ref(tab:iris)
+
+```{r iris}
+head(iris) %>% 
+  knitr::kable(caption = "Iris, data, how old are you iris")
+```
+
+
+
+
+

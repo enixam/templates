@@ -1,8 +1,7 @@
 ---
-title: "R Markdown pdf 中文报告模板"
-author: ""
+title: "中文报告模板"
+author: "闫求识"
 date: "`r Sys.Date()`"
-
 output:
   bookdown::pdf_book:
     base_format: rticles::ctex
@@ -19,7 +18,8 @@ links-as-notes: yes
 bibliography: references.bib
 biblio-style: "apalike"
 link-citations: true
-colorlinks: yes
+colorlinks: true
+linkcolor: blue
 #nocite: '@*'
 classoption: a4paper,oneside
 ---
@@ -74,7 +74,7 @@ $$a^2 + b^2 = c^2$$
 
 ```{r iris}
 head(iris) %>% 
-  knitr::kable(caption = "Iris, data, how old are you iris")
+  knitr::kable(caption = "Iris, data, how old are you")
 ```
 
 

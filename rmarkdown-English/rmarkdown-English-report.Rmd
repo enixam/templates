@@ -1,12 +1,14 @@
 ---
 title: "An Rmarkdown template for English report"
 subtitle: "with asa article format"
+author: "Qiushi"
 date: "`r Sys.Date()`"
 bibliography: references.bib
 biblio-style: "apalike"
 link-citations: true
 links-as-notes: yes
 colorlinks: yes
+linkcolor: blue
 output: 
   bookdown::pdf_book:
     base_format: rticles::asa_article

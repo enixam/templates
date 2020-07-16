@@ -1,6 +1,6 @@
 --- 
 title: "A Chinese Bookdown Template"
-author: ""
+author: "Qiushi"
 date: "`r Sys.Date()`"
 documentclass: ctexbook
 bibliography: [references.bib, packages.bib]
@@ -19,7 +19,9 @@ site: bookdown::bookdown_site
 # 前言 {#preface .unnumbered}
 
 
-
+```{r}
+plot(cars, main = "这是一个标题")
+```
 
 
 ```{r}

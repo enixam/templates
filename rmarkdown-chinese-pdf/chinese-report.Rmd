@@ -24,6 +24,12 @@ linkcolor: blue
 classoption: a4paper,oneside
 ---
 
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(fig.showtext=TRUE)
+```
+
+
 # Markdown 书写
 
 这句话很**重要** ^[使用脚注] 
@@ -45,7 +51,10 @@ diamonds %>%
   slice_sample(n = 500) %>%
   ggplot() + 
   geom_point(aes(carat, price, color = cut)) + 
-  theme_minimal()
+  theme_minimal() +
+  labs(title = "要用什么标题呢",
+       x = "重量(克拉)",
+       y = "价格")
 ```
 
 
@@ -74,7 +83,7 @@ $$a^2 + b^2 = c^2$$
 
 ```{r iris}
 head(iris) %>% 
-  knitr::kable(caption = "Iris, data, how old are you")
+  knitr::kable(caption = "我知道一切 iris")
 ```
 
 

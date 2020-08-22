@@ -17,4 +17,17 @@ bookdown::gitbook:
     edit:
       link: https://github.com/user/repo/edit/master/%s
       text: "Edit"
-
+bookdown::pdf_book:
+  includes:
+    in_header: latex/preamble.tex
+    after_body: latex/after_body.tex
+  keep_tex: yes
+  latex_engine: xelatex
+  citation_package: natbib
+  template: null
+  pandoc_args: [--top-level-division=chapter, --wrap=none]
+  toc_depth: 3
+  toc_unnumbered: no
+  toc_appendix: yes
+  highlight_bw: yes
+  quote_footer: ["\\VA{", "}{}"]

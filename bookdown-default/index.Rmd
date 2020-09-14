@@ -1,17 +1,19 @@
 --- 
-title: ""
-author: ""
+title: "Text Mining and Natural Language Processing"
+author: "Qiushi Yan"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [references.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
-github-repo: user/repo
+github-repo: enixam/text-mining-nlp
 #nocite: '@*'
 #description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
 ---
 
-# Preface {-}
+# Overview
 
-Hi, my name is 
+Text mining is also referred to as text analytics or machine learning for text. 
+
+

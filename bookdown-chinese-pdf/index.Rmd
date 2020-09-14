@@ -1,5 +1,5 @@
 --- 
-title: "A Chinese Bookdown Template"
+title: "一个 bookdown 中文书模板"
 author: "Qiushi"
 date: "`r Sys.Date()`"
 documentclass: ctexbook
@@ -19,16 +19,6 @@ site: bookdown::bookdown_site
 # 前言 {#preface .unnumbered}
 
 
-```{r}
-plot(cars, main = "这是一个标题")
-```
-
-
-```{r}
-xfun::session_info("bookdown")
-```
-
-
 ```{block2,type="rmdtip"}
-This is a custom block
+一个自定义块
 ```

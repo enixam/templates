@@ -1,43 +1,45 @@
 ---
 title: Modeling Titanic Survival
 author:
-  - name: Qiushi Yan ^[https://qiushi.rbind.io]
-    email: "website: https://qiushi.rbind.io email: qiushi.yann@gmail.com" 
-    affiliation: applying for msc in data science
+  - name: Qiushi
+    email: 'website: https://qiushi.rbind.io'
+    affiliation: 'applying for msc in data science'
 abstract: |
   This is the abstract.
   It consists of two paragraphs.
 bibliography: sigproc.bib
 csl: acm-sig-proceedings.csl
 link-citations: true
-links-as-notes: yes
-colorlinks: true
-urlcolor: blue
+colorlinks: yes
 output:
   bookdown::pdf_book:
     base_format: rticles::acm_article
-    latex_engine: xelatex
+    includes:
+      in_header: header.tex
 ---
 
 
 
-# Introduction 
+A [link](http://google.com)
 
-```{r diamond-plot, fig.cap = "this is a figrue"}
+
+cross reference for figure \@ref(fig:mtcars)
+
+```{r mtcars, fig.cap = "this is a figrue"}
 plot(mtcars[1:2])
 ```
 
-Please see figure \@ref(fig:diamond-plot)
+cross reference for equation \@ref(eq:my-eq)
+
 
 \begin{equation}
-(\#eq:haha)
+(\#eq:my-eq)
 a^2 + b^2 = c^2
 \end{equation}
 
-this line reference equation \@ref(eq:haha)
 
 
-
+# Introduction 
 
 Lorem ipsum dolor^[https://baidu.com] sit[@meier2012] amet, consectetur adipiscing[@fenner2012a] elit. Pellentesque rhoncus ut tellus eu tristique. Duis pharetra velit vitae viverra elementum. Nulla metus dui, pulvinar id enim at, pellentesque semper ipsum. Phasellus cursus dignissim ipsum, sed congue orci pretium quis. Maecenas rhoncus leo a cursus euismod. Fusce a erat eu ipsum tristique tempus at sed tortor. Aliquam erat volutpat. Donec at pretium lorem. Donec pretium nunc id nunc bibendum convallis. Phasellus quis enim id massa feugiat egestas hendrerit sollicitudin nibh. Sed blandit eros id tellus porta, eget ullamcorper urna posuere. Pellentesque laoreet lacus nibh, a mattis libero viverra sit amet. Sed vitae diam interdum, pharetra neque sit amet, dictum lectus.
 
@@ -52,6 +54,8 @@ Sed est odio, ornare in rutrum et, dapibus in urna. Suspendisse varius massa in 
 Duis nec purus sed neque porttitor tincidunt vitae quis augue. Donec porttitor aliquam ante, nec convallis nisl ornare eu. Morbi ut purus et justo commodo dignissim et nec nisl. Donec imperdiet tellus dolor, vel dignissim risus venenatis eu. Aliquam tempor imperdiet massa, nec fermentum tellus sollicitudin vulputate. Integer posuere porttitor pharetra. Praesent vehicula elementum diam a suscipit. Morbi viverra velit eget placerat pellentesque. Nunc congue augue non nisi ultrices tempor.
 
 # References
+
+This is a reference section. 
 
 ---
 references:
@@ -81,5 +85,5 @@ references:
   issued:
     year: 2012
     month: 3
+- id: salas:calculus
 ...
-

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.25)  25 SEP 2020 22:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.25)  25 SEP 2020 17:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -7,8 +7,8 @@ entering extended mode
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-09-06>
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tufte-latex/tufte
--handout.cls
-Document Class: tufte-handout 2015/06/21 v3.5.2 Tufte-handout class
+-book.cls
+Document Class: tufte-book 2015/06/21 v3.5.2 Tufte-book class
 
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tufte-latex/tufte
 -common.def
@@ -85,20 +85,21 @@ Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 \hw@wordcount=\count173
 \hw@maxprintline=\count174
 )
-Class tufte-handout Info: Loading the base class `article'
-(c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
-(c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+Class tufte-book Info: Loading the base class `book'
+(c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2019/12/20 v1.4l Standard LaTeX document class
+(c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
 \c@part=\count175
-\c@section=\count176
-\c@subsection=\count177
-\c@subsubsection=\count178
-\c@paragraph=\count179
-\c@subparagraph=\count180
-\c@figure=\count181
-\c@table=\count182
+\c@chapter=\count176
+\c@section=\count177
+\c@subsection=\count178
+\c@subsubsection=\count179
+\c@paragraph=\count180
+\c@subparagraph=\count181
+\c@figure=\count182
+\c@table=\count183
 \abovecaptionskip=\skip50
 \belowcaptionskip=\skip51
 \bibindent=\dimen136
@@ -161,8 +162,8 @@ ns.sty
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 )
 \@linkdim=\dimen143
-\Hy@linkcounter=\count183
-\Hy@pagecounter=\count184
+\Hy@linkcounter=\count184
+\Hy@pagecounter=\count185
 
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.d
 ef
@@ -178,7 +179,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 ds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count185
+\Hy@SavedSpaceFactor=\count186
 Package hyperref Info: Option `unicode' set `true' on input line 4338.
 
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.de
@@ -195,7 +196,7 @@ Package hyperref Info: Plain pages OFF on input line 4479.
 Package hyperref Info: Backreferencing OFF on input line 4484.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4717.
-\c@Hy@tempcnt=\count186
+\c@Hy@tempcnt=\count187
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
@@ -212,7 +213,7 @@ ntcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count187
+\Fld@menulength=\count188
 \Field@Width=\dimen145
 \Fld@charsize=\dimen146
 Package hyperref Info: Hyper figures OFF on input line 6347.
@@ -229,8 +230,8 @@ LaTeX Info: Redefining \pageref on input line 6421.
 hi.sty
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
-\Hy@abspage=\count188
-\c@Item=\count189
+\Hy@abspage=\count189
+\c@Item=\count190
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -243,8 +244,8 @@ nd.sty
 Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
 )
-\Fld@listcount=\count190
-\c@bookmark@seq@number=\count191
+\Fld@listcount=\count191
+\c@bookmark@seq@number=\count192
 
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/re
 runfilecheck.sty
@@ -288,9 +289,9 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 y
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count192
-\Gm@cntv=\count193
-\c@Gm@tempcnt=\count194
+\Gm@cnth=\count193
+\Gm@cntv=\count194
+\c@Gm@tempcnt=\count195
 \Gm@bindingoffset=\dimen147
 \Gm@wd@mp=\dimen148
 \Gm@odd@mp=\dimen149
@@ -304,8 +305,8 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/changepage/change
 page.sty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
-\c@cp@cntr=\count195
-\cp@tempcnt=\count196
+\c@cp@cntr=\count196
+\cp@tempcnt=\count197
 )
 \@tufte@overhang=\skip69
 \@tufte@fullwidth=\skip70
@@ -325,7 +326,7 @@ Package: paralist 2017/01/22 v2.7 Extended list environments
 Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
 )
 
-Class tufte-handout Warning: Couldn't locate `soul' package
+Class tufte-book Warning: Couldn't locate `soul' package
 
 
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/setspace/setspace
@@ -368,14 +369,14 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip76
 \bibsep=\skip77
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count197
+\c@NAT@ctr=\count198
 )
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/natbib/bibentry.s
 ty
 Package: bibentry 2007/10/30 1.5 (PWD)
 )
 No file tufte.bbl.
-\c@@tufte@num@bibkeys=\count198
+\c@@tufte@num@bibkeys=\count199
 
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/sauerj/optparams.
 sty
@@ -430,14 +431,14 @@ s
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/multicol.st
 y
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
-\c@tracingmulticols=\count199
+\c@tracingmulticols=\count266
 \mult@box=\box49
 \multicol@leftmargin=\dimen155
-\c@unbalance=\count266
-\c@collectmore=\count267
-\doublecol@number=\count268
-\multicoltolerance=\count269
-\multicolpretolerance=\count270
+\c@unbalance=\count267
+\c@collectmore=\count268
+\doublecol@number=\count269
+\multicoltolerance=\count270
+\multicolpretolerance=\count271
 \full@width=\dimen156
 \page@free=\dimen157
 \premulticols=\dimen158
@@ -488,15 +489,15 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \@tempa=\box90
 \@tempa=\box91
 \@tempa=\box92
-\c@minrows=\count271
-\c@columnbadness=\count272
-\c@finalcolumnbadness=\count273
+\c@minrows=\count272
+\c@columnbadness=\count273
+\c@finalcolumnbadness=\count274
 \last@try=\dimen161
 \multicolovershoot=\dimen162
 \multicolundershoot=\dimen163
 \mult@nat@firstbox=\box93
 \colbreak@box=\box94
-\mc@col@check@num=\count274
+\mc@col@check@num=\count275
 )))
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb.
 sty
@@ -537,13 +538,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 y
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count275
+\inf@bad=\count276
 LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count276
-\leftroot@=\count277
+\uproot@=\count277
+\leftroot@=\count278
 LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count278
-\DOTSCASE@=\count279
+\classnum@=\count279
+\DOTSCASE@=\count280
 LaTeX Info: Redefining \ldots on input line 486.
 LaTeX Info: Redefining \dots on input line 489.
 LaTeX Info: Redefining \cdots on input line 610.
@@ -552,15 +553,15 @@ LaTeX Info: Redefining \cdots on input line 610.
 \big@size=\dimen166
 LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count280
-\c@MaxMatrixCols=\count281
+\macc@depth=\count281
+\c@MaxMatrixCols=\count282
 \dotsspace@=\muskip17
-\c@parentequation=\count282
-\dspbrk@lvl=\count283
+\c@parentequation=\count283
+\dspbrk@lvl=\count284
 \tag@help=\toks22
-\row@=\count284
-\column@=\count285
-\maxfields@=\count286
+\row@=\count285
+\column@=\count286
+\maxfields@=\count287
 \andhelp@=\toks23
 \eqnshift@=\dimen167
 \alignsep@=\dimen168
@@ -626,12 +627,12 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen182
 \cmidrulekern=\dimen183
 \defaultaddspace=\dimen184
-\@cmidla=\count287
-\@cmidlb=\count288
+\@cmidla=\count288
+\@cmidlb=\count289
 \@aboverulesep=\dimen185
 \@belowrulesep=\dimen186
-\@thisruleclass=\count289
-\@lastruleclass=\count290
+\@thisruleclass=\count290
+\@lastruleclass=\count291
 \@thisrulewidth=\dimen187
 ) (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/units/units.sty
 Package: units 1998/08/04 v0.9b Typesetting units
@@ -643,43 +644,41 @@ Package: nicefrac 1998/08/04 v0.9b Nice fractions
 \L@UnitsRaiseTextstyle=\skip97
 \L@UnitsRaiseScriptstyle=\skip98
 ))
-\cslhangindent=\skip99
-
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fancyvrb/fancyvrb
 .sty
 Package: fancyvrb 2020/05/03 v3.6 verbatim text (tvz,hv)
-\FV@CodeLineNo=\count291
+\FV@CodeLineNo=\count292
 \FV@InFile=\read2
 \FV@TabBox=\box97
-\c@FancyVerbLine=\count292
-\FV@StepNumber=\count293
+\c@FancyVerbLine=\count293
+\FV@StepNumber=\count294
 \FV@OutFile=\write3
 )
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/longtable.s
 ty
 Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
-\LTleft=\skip100
-\LTright=\skip101
-\LTpre=\skip102
-\LTpost=\skip103
-\LTchunksize=\count294
+\LTleft=\skip99
+\LTright=\skip100
+\LTpre=\skip101
+\LTpost=\skip102
+\LTchunksize=\count295
 \LTcapwidth=\dimen188
 \LT@head=\box98
 \LT@firsthead=\box99
 \LT@foot=\box100
 \LT@lastfoot=\box101
-\LT@cols=\count295
-\LT@rows=\count296
-\c@LT@tables=\count297
-\c@LT@chunks=\count298
+\LT@cols=\count296
+\LT@rows=\count297
+\c@LT@tables=\count298
+\c@LT@chunks=\count299
 \LT@p@ftn=\toks28
 ) (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/ulem/ulem.sty
 \UL@box=\box102
 \UL@hyphenbox=\box103
-\UL@skip=\skip104
+\UL@skip=\skip103
 \UL@hook=\toks29
 \UL@height=\dimen189
-\UL@pe=\count299
+\UL@pe=\count300
 \UL@pixel=\dimen190
 \ULC@box=\box104
 Package: ulem 2019/11/18
@@ -696,31 +695,32 @@ Package morefloats Info: Maximum number of possible floats asked for: 36
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backe
 nd-pdftex.def
 File: l3backend-pdftex.def 2020-09-11 L3 backend support: PDF output (pdfTeX)
-\l__kernel_color_stack_int=\count300
+\l__kernel_color_stack_int=\count301
 \l__pdf_internal_box=\box105
-) (./tufte.aux)
+)
+No file tufte.aux.
 \openout1 = `tufte.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
 \AtBeginShipoutBox=\box106
-Package hyperref Info: Link coloring OFF on input line 116.
+Package hyperref Info: Link coloring OFF on input line 109.
 
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.
 sty
@@ -734,17 +734,16 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count301
+\c@section@level=\count302
 )
-LaTeX Info: Redefining \ref on input line 116.
-LaTeX Info: Redefining \pageref on input line 116.
-LaTeX Info: Redefining \nameref on input line 116.
-(./tufte.out) (./tufte.out)
+LaTeX Info: Redefining \ref on input line 109.
+LaTeX Info: Redefining \pageref on input line 109.
+LaTeX Info: Redefining \nameref on input line 109.
 \@outlinefile=\write4
 \openout4 = `tufte.out'.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 116.
+LaTeX Info: Redefining \selectfont on input line 109.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -765,7 +764,7 @@ LaTeX Info: Redefining \selectfont on input line 116.
 * \headheight=14.0pt
 * \headsep=28.0pt
 * \topskip=10.0pt
-* \footskip=30.0pt
+* \footskip=25.29494pt
 * \marginparwidth=144.0pt
 * \marginparsep=24.0pt
 * \columnsep=10.0pt
@@ -783,16 +782,16 @@ LaTeX Info: Redefining \selectfont on input line 116.
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/context/base/mkii/supp-
 pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count302
+\scratchcounter=\count303
 \scratchdimen=\dimen192
 \scratchbox=\box107
-\nofMPsegments=\count303
-\nofMParguments=\count304
+\nofMPsegments=\count304
+\nofMParguments=\count305
 \everyMPshowfont=\toks30
-\MPscratchCnt=\count305
+\MPscratchCnt=\count306
 \MPscratchDim=\dimen193
-\MPnumerator=\count306
-\makeMPintoPDFobject=\count307
+\MPnumerator=\count307
+\makeMPintoPDFobject=\count308
 \everyMPtoPDFconversion=\toks31
 )
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epst
@@ -807,367 +806,382 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \langwohyphens=\language5
-(./tufte.toc)
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 11
+1.
+(c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
+)
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 8.99994pt on input line 111.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 16.19989pt on input line 111.
+
+Class tufte-book Warning: Proper spacing of ALL-CAPS letters has not been set u
+p.
+This message occurred on input line 111.
+
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 32.39978pt on input line 111.
+
+Class tufte-book Warning: Proper spacing of ALL-CAPS letters has not been set u
+p.
+This message occurred on input line 111.
+
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 12.59991pt on input line 111.
+
+Class tufte-book Warning: Proper spacing of ALL-CAPS letters has not been set u
+p.
+This message occurred on input line 111.
+
+[1
+
+
+{c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdft
+ex.map}] [2
+
+
+]
 \tf@toc=\write5
 \openout5 = `tufte.toc'.
 
+[3] [4
+
+]
+Chapter 1.
 LaTeX Font Info:    Trying to load font information for OT1+pplx on input line 
-130.
+123.
 
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/ot1pplx.fd
 File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
 )
 LaTeX Font Info:    Trying to load font information for OML+zplm on input line 
-130.
+123.
 
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 
-130.
+123.
 
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 
-130.
+123.
 
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
-130.
+123.
 
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 130.
+(Font)              scaled to size 10.42007pt on input line 123.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 130.
+(Font)              scaled to size 7.91925pt on input line 123.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 130.
+(Font)              scaled to size 6.25204pt on input line 123.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 130.
+(Font)              scaled to size 10.42007pt on input line 123.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 130.
+(Font)              scaled to size 7.91925pt on input line 123.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 130.
+(Font)              scaled to size 6.25204pt on input line 123.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 130.
+(Font)              scaled to size 8.33606pt on input line 123.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 130.
+(Font)              scaled to size 5.21004pt on input line 123.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 130.
+(Font)              scaled to size 8.33606pt on input line 123.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 130.
+(Font)              scaled to size 5.21004pt on input line 123.
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-30.
+23.
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 
-LaTeX Warning: Marginpar on page 1 moved.
+LaTeX Warning: Marginpar on page 5 moved.
 
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 135.
-[1
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 128.
+[5]
 
-{c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdft
-ex.map}]
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set
+ up.
+This message occurred on input line 151.
+
+[6]
+Chapter 2.
 LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
-162.
+155.
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ts1cmtt.fd
 File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 
-LaTeX Warning: Marginpar on page 2 moved.
+LaTeX Warning: Marginpar on page 7 moved.
 
 
-LaTeX Warning: Marginpar on page 2 moved.
+LaTeX Warning: Marginpar on page 7 moved.
 
+[7
 
-Class tufte-handout Warning: Proper spacing of small-caps letters has not been 
-set up.
-This message occurred on input line 179.
+] [8
 
-[2]
-<tufte_files/figure-latex/fig-margin-1.pdf, id=112, 252.945pt x 252.945pt>
+]
+Chapter 3.
+<tufte_files/figure-latex/fig-margin-1.pdf, id=65, 252.945pt x 252.945pt>
 File: tufte_files/figure-latex/fig-margin-1.pdf Graphic file (type pdf)
 <use tufte_files/figure-latex/fig-margin-1.pdf>
 Package pdftex.def Info: tufte_files/figure-latex/fig-margin-1.pdf  used on inp
-ut line 186.
+ut line 179.
 (pdftex.def)             Requested size: 144.0026pt x 144.0026pt.
-<tufte_files/figure-latex/fig-fullwidth-1.pdf, id=113, 722.7pt x 144.54pt>
+[9 <./tufte_files/figure-latex/fig-margin-1.pdf>]
+<tufte_files/figure-latex/fig-fullwidth-1.pdf, id=85, 722.7pt x 144.54pt>
 File: tufte_files/figure-latex/fig-fullwidth-1.pdf Graphic file (type pdf)
 <use tufte_files/figure-latex/fig-fullwidth-1.pdf>
 Package pdftex.def Info: tufte_files/figure-latex/fig-fullwidth-1.pdf  used on 
-input line 219.
+input line 212.
 (pdftex.def)             Requested size: 480.005pt x 96.00098pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 219--220
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
 
  []
 
 
-Class tufte-handout Warning: Proper spacing of small-caps letters has not been 
-set up.
-This message occurred on input line 223.
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set
+ up.
+This message occurred on input line 240.
 
-[3 <./tufte_files/figure-latex/fig-margin-1.pdf> <./tufte_files/figure-latex/fi
-g-fullwidth-1.pdf>]
-<tufte_files/figure-latex/fig-main-1.pdf, id=139, 289.08pt x 180.675pt>
+[10 <./tufte_files/figure-latex/fig-fullwidth-1.pdf>]
+<tufte_files/figure-latex/fig-main-1.pdf, id=105, 289.08pt x 180.675pt>
 File: tufte_files/figure-latex/fig-main-1.pdf Graphic file (type pdf)
 <use tufte_files/figure-latex/fig-main-1.pdf>
 Package pdftex.def Info: tufte_files/figure-latex/fig-main-1.pdf  used on input
- line 253.
+ line 246.
 (pdftex.def)             Requested size: 312.01648pt x 195.01028pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--254
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
 
  []
 
 
-Class tufte-handout Warning: Proper spacing of small-caps letters has not been 
-set up.
-This message occurred on input line 260.
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set
+ up.
+This message occurred on input line 250.
 
-[4 <./tufte_files/figure-latex/fig-main-1.pdf>]
+[11 <./tufte_files/figure-latex/fig-main-1.pdf>] [12
 
-LaTeX Warning: Marginpar on page 5 moved.
+]
+Chapter 4.
+
+LaTeX Warning: Marginpar on page 13 moved.
 
 
-LaTeX Warning: Marginpar on page 5 moved.
+LaTeX Warning: Marginpar on page 13 moved.
 
+[13] [14
 
-Class tufte-handout Warning: Proper spacing of small-caps letters has not been 
-set up.
-This message occurred on input line 316.
+]
+Chapter 5.
+[15] [16
 
-[5]
-<tufte_files/figure-latex/fig-two-together-1.pdf, id=165, 289.08pt x 180.675pt>
+]
+Chapter 6.
+[17] [18
+
+]
+Chapter 7.
+[19] [20
+
+]
+Chapter 8.
+[21] [22
+
+]
+Chapter 9.
+<tufte_files/figure-latex/fig-two-together-1.pdf, id=178, 289.08pt x 180.675pt>
 
 File: tufte_files/figure-latex/fig-two-together-1.pdf Graphic file (type pdf)
 <use tufte_files/figure-latex/fig-two-together-1.pdf>
 Package pdftex.def Info: tufte_files/figure-latex/fig-two-together-1.pdf  used 
-on input line 351.
+on input line 344.
 (pdftex.def)             Requested size: 312.01648pt x 195.01028pt.
-<tufte_files/figure-latex/fig-two-together-2.pdf, id=166, 289.08pt x 180.675pt>
+<tufte_files/figure-latex/fig-two-together-2.pdf, id=179, 289.08pt x 180.675pt>
 
 File: tufte_files/figure-latex/fig-two-together-2.pdf Graphic file (type pdf)
 <use tufte_files/figure-latex/fig-two-together-2.pdf>
 Package pdftex.def Info: tufte_files/figure-latex/fig-two-together-2.pdf  used 
-on input line 351.
+on input line 344.
 (pdftex.def)             Requested size: 312.01648pt x 195.01028pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 351--352
+Underfull \hbox (badness 10000) in paragraph at lines 344--345
 
  []
 
-
-Class tufte-handout Warning: Proper spacing of small-caps letters has not been 
-set up.
-This message occurred on input line 361.
-
-[6]
-
-Class tufte-handout Warning: Proper spacing of small-caps letters has not been 
-set up.
-This message occurred on input line 361.
-
-[7 <./tufte_files/figure-latex/fig-two-together-1.pdf> <./tufte_files/figure-la
-tex/fig-two-together-2.pdf>]
-<tufte_files/figure-latex/fig-two-separate-1.pdf, id=191, 289.08pt x 180.675pt>
+<tufte_files/figure-latex/fig-two-separate-1.pdf, id=180, 289.08pt x 180.675pt>
 
 File: tufte_files/figure-latex/fig-two-separate-1.pdf Graphic file (type pdf)
 <use tufte_files/figure-latex/fig-two-separate-1.pdf>
 Package pdftex.def Info: tufte_files/figure-latex/fig-two-separate-1.pdf  used 
-on input line 365.
+on input line 358.
 (pdftex.def)             Requested size: 312.01648pt x 195.01028pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 365--366
+Underfull \hbox (badness 10000) in paragraph at lines 358--359
 
  []
 
-<tufte_files/figure-latex/fig-two-separate-2.pdf, id=192, 289.08pt x 180.675pt>
+<tufte_files/figure-latex/fig-two-separate-2.pdf, id=181, 289.08pt x 180.675pt>
 
 File: tufte_files/figure-latex/fig-two-separate-2.pdf Graphic file (type pdf)
 <use tufte_files/figure-latex/fig-two-separate-2.pdf>
 Package pdftex.def Info: tufte_files/figure-latex/fig-two-separate-2.pdf  used 
-on input line 375.
+on input line 368.
 (pdftex.def)             Requested size: 312.01648pt x 195.01028pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 375--376
+Underfull \hbox (badness 10000) in paragraph at lines 368--369
 
  []
 
+[23]
 
-Class tufte-handout Warning: Proper spacing of small-caps letters has not been 
-set up.
-This message occurred on input line 383.
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set
+ up.
+This message occurred on input line 387.
 
-[8 <./tufte_files/figure-latex/fig-two-separate-1.pdf> <./tufte_files/figure-la
-tex/fig-two-separate-2.pdf>]
-<tufte_files/figure-latex/fig-margin-together-1.pdf, id=210, 252.945pt x 180.67
+[24 <./tufte_files/figure-latex/fig-two-together-1.pdf> <./tufte_files/figure-l
+atex/fig-two-together-2.pdf>]
+
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set
+ up.
+This message occurred on input line 387.
+
+[25 <./tufte_files/figure-latex/fig-two-separate-1.pdf> <./tufte_files/figure-l
+atex/fig-two-separate-2.pdf>]
+<tufte_files/figure-latex/fig-margin-together-1.pdf, id=222, 252.945pt x 180.67
 5pt>
 File: tufte_files/figure-latex/fig-margin-together-1.pdf Graphic file (type pdf
 )
 <use tufte_files/figure-latex/fig-margin-together-1.pdf>
 Package pdftex.def Info: tufte_files/figure-latex/fig-margin-together-1.pdf  us
-ed on input line 394.
+ed on input line 387.
 (pdftex.def)             Requested size: 144.0026pt x 102.859pt.
-<tufte_files/figure-latex/fig-margin-together-2.pdf, id=211, 252.945pt x 180.67
+<tufte_files/figure-latex/fig-margin-together-2.pdf, id=223, 252.945pt x 180.67
 5pt>
 File: tufte_files/figure-latex/fig-margin-together-2.pdf Graphic file (type pdf
 )
 <use tufte_files/figure-latex/fig-margin-together-2.pdf>
 Package pdftex.def Info: tufte_files/figure-latex/fig-margin-together-2.pdf  us
-ed on input line 394.
+ed on input line 387.
 (pdftex.def)             Requested size: 144.0026pt x 102.859pt.
 
-LaTeX Warning: Marginpar on page 9 moved.
+LaTeX Warning: Marginpar on page 26 moved.
 
 
-Overfull \hbox (12.66985pt too wide) in paragraph at lines 405--440
+Overfull \hbox (12.66985pt too wide) in paragraph at lines 398--433
 [][]  
  []
 
-<tufte_files/figure-latex/fig-margin-separate-1.pdf, id=212, 252.945pt x 180.67
+<tufte_files/figure-latex/fig-margin-separate-1.pdf, id=224, 252.945pt x 180.67
 5pt>
 File: tufte_files/figure-latex/fig-margin-separate-1.pdf Graphic file (type pdf
 )
 <use tufte_files/figure-latex/fig-margin-separate-1.pdf>
 Package pdftex.def Info: tufte_files/figure-latex/fig-margin-separate-1.pdf  us
-ed on input line 448.
+ed on input line 441.
 (pdftex.def)             Requested size: 144.0026pt x 102.859pt.
 
-Overfull \hbox (12.66985pt too wide) in paragraph at lines 457--486
+Overfull \hbox (12.66985pt too wide) in paragraph at lines 450--479
 [][]  
  []
 
-
-Class tufte-handout Warning: Proper spacing of small-caps letters has not been 
-set up.
-This message occurred on input line 495.
-
-[9 <./tufte_files/figure-latex/fig-margin-together-1.pdf> <./tufte_files/figure
--latex/fig-margin-together-2.pdf> <./tufte_files/figure-latex/fig-margin-separa
-te-1.pdf>]
-<tufte_files/figure-latex/fig-margin-separate-2.pdf, id=235, 252.945pt x 180.67
+<tufte_files/figure-latex/fig-margin-separate-2.pdf, id=225, 252.945pt x 180.67
 5pt>
 File: tufte_files/figure-latex/fig-margin-separate-2.pdf Graphic file (type pdf
 )
 <use tufte_files/figure-latex/fig-margin-separate-2.pdf>
 Package pdftex.def Info: tufte_files/figure-latex/fig-margin-separate-2.pdf  us
-ed on input line 498.
+ed on input line 491.
 (pdftex.def)             Requested size: 144.0026pt x 102.859pt.
 
-LaTeX Warning: Marginpar on page 10 moved.
-
-
-Overfull \hbox (12.66985pt too wide) in paragraph at lines 507--522
+Overfull \hbox (12.66985pt too wide) in paragraph at lines 500--515
 [][]  
  []
 
-<tufte_files/figure-latex/fig-nocap-margin-1.pdf, id=236, 252.945pt x 144.54pt>
+
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set
+ up.
+This message occurred on input line 516.
+
+[26 <./tufte_files/figure-latex/fig-margin-together-1.pdf> <./tufte_files/figur
+e-latex/fig-margin-together-2.pdf> <./tufte_files/figure-latex/fig-margin-separ
+ate-1.pdf> <./tufte_files/figure-latex/fig-margin-separate-2.pdf>]
+<tufte_files/figure-latex/fig-nocap-margin-1.pdf, id=256, 252.945pt x 144.54pt>
 
 File: tufte_files/figure-latex/fig-nocap-margin-1.pdf Graphic file (type pdf)
 <use tufte_files/figure-latex/fig-nocap-margin-1.pdf>
 Package pdftex.def Info: tufte_files/figure-latex/fig-nocap-margin-1.pdf  used 
-on input line 537.
+on input line 530.
 (pdftex.def)             Requested size: 144.0026pt x 82.28719pt.
-<tufte_files/figure-latex/fig-nocap-main-1.pdf, id=237, 289.08pt x 180.675pt>
+<tufte_files/figure-latex/fig-nocap-main-1.pdf, id=257, 289.08pt x 180.675pt>
 File: tufte_files/figure-latex/fig-nocap-main-1.pdf Graphic file (type pdf)
 <use tufte_files/figure-latex/fig-nocap-main-1.pdf>
 Package pdftex.def Info: tufte_files/figure-latex/fig-nocap-main-1.pdf  used on
- input line 547.
+ input line 540.
 (pdftex.def)             Requested size: 312.01648pt x 195.01028pt.
 
-Overfull \hbox (12.01648pt too wide) in paragraph at lines 547--548
+Overfull \hbox (12.01648pt too wide) in paragraph at lines 540--541
 [][]  
  []
 
-
-Class tufte-handout Warning: Proper spacing of small-caps letters has not been 
-set up.
-This message occurred on input line 558.
-
-[10 <./tufte_files/figure-latex/fig-margin-separate-2.pdf> <./tufte_files/figur
-e-latex/fig-nocap-margin-1.pdf> <./tufte_files/figure-latex/fig-nocap-main-1.pd
-f>]
-<tufte_files/figure-latex/fig-nocap-fullwidth-1.pdf, id=261, 722.7pt x 216.81pt
+<tufte_files/figure-latex/fig-nocap-fullwidth-1.pdf, id=258, 722.7pt x 216.81pt
 >
 File: tufte_files/figure-latex/fig-nocap-fullwidth-1.pdf Graphic file (type pdf
 )
 <use tufte_files/figure-latex/fig-nocap-fullwidth-1.pdf>
 Package pdftex.def Info: tufte_files/figure-latex/fig-nocap-fullwidth-1.pdf  us
-ed on input line 561.
+ed on input line 554.
 (pdftex.def)             Requested size: 480.005pt x 144.0015pt.
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 56
-6.
-(c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/t1phv.fd
-File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
-)
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 566.
 
-Class tufte-handout Warning: Proper spacing of small-caps letters has not been 
-set up.
-This message occurred on input line 593.
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set
+ up.
+This message occurred on input line 557.
 
-[11 <./tufte_files/figure-latex/fig-nocap-fullwidth-1.pdf>]
+[27 <./tufte_files/figure-latex/fig-nocap-margin-1.pdf> <./tufte_files/figure-l
+atex/fig-nocap-main-1.pdf>]
 
-LaTeX Warning: Marginpar on page 12 moved.
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set
+ up.
+This message occurred on input line 557.
+
+[28 <./tufte_files/figure-latex/fig-nocap-fullwidth-1.pdf>]
+Chapter 10.
+[29
+
+]
+
+LaTeX Warning: Marginpar on page 30 moved.
 
 
-Package bibentry Warning: You have used \nobibliography* 
-(bibentry)                without a following \bibliography.
-(bibentry)                You may not be able to run BibTeX.
+! LaTeX Error: Environment cslreferences undefined.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 642.
-
-Class tufte-handout Warning: Proper spacing of small-caps letters has not been 
-set up.
-This message occurred on input line 642.
-
-[12]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 642.
-(./tufte.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 642.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 642.
-Package rerunfilecheck Info: File `tufte.out' has not changed.
-(rerunfilecheck)             Checksum: 2FC2A16EBBCB2EFFD5D2521F7900058D;1020.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 642.
- ) 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.625 \begin{cslreferences}
+                            
 Here is how much of TeX's memory you used:
- 14058 strings out of 482799
- 207736 string characters out of 5953272
- 485704 words of memory out of 5000000
- 29034 multiletter control sequences out of 15000+600000
- 606322 words of font info for 142 fonts, out of 8000000 for 9000
+ 14030 strings out of 482799
+ 207276 string characters out of 5953272
+ 488068 words of memory out of 5000000
+ 29005 multiletter control sequences out of 15000+600000
+ 605851 words of font info for 136 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 55i,11n,51p,1147b,515s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.e
-nc} <c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen
-/ec/ecit1000.600pk> <c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-var/fonts/pk
-/ljfour/jknappen/ec/ectt0800.600pk> <c:/Users/Lenovo/AppData/Roaming/TinyTeX/te
-xmf-var/fonts/pk/ljfour/jknappen/ec/tctt1000.600pk> <c:/Users/Lenovo/AppData/Ro
-aming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1000.600pk><c:/Users/Le
-novo/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.p
-fb><c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr10.pfb><c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb><c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-
-dist/fonts/type1/public/fpl/fplrc8a.pfb><c:/Users/Lenovo/AppData/Roaming/TinyTe
-X/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb><c:/Users/Lenovo/AppData/Roami
-ng/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/Users/Lenovo/AppD
-ata/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/Users/Le
-novo/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:
-/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplri
-8a.pfb>
-Output written on tufte.pdf (12 pages, 379494 bytes).
-PDF statistics:
- 454 PDF objects out of 1000 (max. 8388607)
- 275 compressed objects within 3 object streams
- 48 named destinations out of 1000 (max. 500000)
- 151 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 55i,12n,51p,1147b,507s stack positions out of 5000i,500n,10000p,200000b,80000s
 
+!  ==> Fatal error occurred, no output PDF file produced!

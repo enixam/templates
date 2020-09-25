@@ -1,0 +1,54 @@
+\begin{table}
+
+\caption{\label{tab:iris}my table}
+\centering
+\begin{tabular}[t]{r|r|r|r|l}
+\hline
+Sepal.Length & Sepal.Width & Petal.Length & Petal.Width & Species\\
+\hline
+5.1 & 3.5 & 1.4 & 0.2 & setosa\\
+\hline
+4.9 & 3.0 & 1.4 & 0.2 & setosa\\
+\hline
+4.7 & 3.2 & 1.3 & 0.2 & setosa\\
+\hline
+4.6 & 3.1 & 1.5 & 0.2 & setosa\\
+\hline
+5.0 & 3.6 & 1.4 & 0.2 & setosa\\
+\hline
+5.4 & 3.9 & 1.7 & 0.4 & setosa\\
+\hline
+\end{tabular}
+\end{table}
+\efloatseparator
+ 
+\begin{table}[ht]
+\centering
+\begin{tabular}{rrl}
+  \hline
+ & ID & code \\
+  \hline
+1 &   1 & a \\
+  2 &   2 & b \\
+  3 &   3 & c \\
+   \hline
+\end{tabular}
+\caption{This is the table caption}
+\label{tab:tab1}
+\end{table}
+\efloatseparator
+ 
+\begin{table}
+
+\caption{\label{tab:tab2}This is the table caption}
+\centering
+\begin{tabular}[t]{rl}
+\toprule
+ID & code\\
+\midrule
+1 & a\\
+2 & b\\
+3 & c\\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,27 @@
+---
+title: "Template for html report"
+subtitle: "with a nice subtitle"
+author: "Qiushi"
+date: "`r Sys.Date()`"
+bibliography: references.bib
+biblio-style: "apalike"
+link-citations: true
+links-as-notes: yes
+output: 
+  bookdown::html_document2:
+    toc: true
+    toc_float: true
+    toc_depth: 3
+    theme: journal
+    includes: 
+      before_body: header.html
+    css: style.css
+---
+
+# Section 1
+
+
+# Section 2
+
+
+# Section 3

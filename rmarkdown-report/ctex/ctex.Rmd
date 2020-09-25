@@ -24,6 +24,7 @@ linkcolor: blue
 classoption: a4paper,oneside
 ---
 
+使用前可能需要先将区域设置调整为中国
 
 ```{r, include = FALSE}
 knitr::opts_chunk$set(fig.showtext=TRUE)

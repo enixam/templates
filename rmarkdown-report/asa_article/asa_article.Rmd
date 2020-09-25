@@ -1,5 +1,5 @@
 ---
-title: "An Rmarkdown template for English report"
+title: "An R Markdown template for English report"
 subtitle: "with asa article format"
 author: "Qiushi"
 date: "`r Sys.Date()`"
@@ -8,20 +8,12 @@ biblio-style: "apalike"
 link-citations: true
 links-as-notes: yes
 colorlinks: yes
-linkcolor: blue
 output: 
   bookdown::pdf_book:
     base_format: rticles::asa_article
+    latex_engine: xelatex
     toc: true
     number_sections: true
-  bookdown::html_document2:
-    toc: true
-    toc_float: true
-    toc_depth: 3
-    theme: journal
-    includes: 
-      before_body: header.html
-    css: style.css
 blinded: 0
 authors: 
 - name: Qiushi Yan
@@ -42,14 +34,23 @@ linestretch: 1.5
 ---
 
 ```{r, include = FALSE}
+knitr::opts_chunk$set(message = FALSE,
+                      warning = FALSE, 
+                      collapse = TRUE,
+                      comment = "#>")
+```
+
+
+```{r, include = FALSE}
 knitr::opts_chunk$set(message = FALSE)
 ```
 
 
 # Chapter 1
-Let's see \@ref(thm:pyth)
 
-```{theorem, pyth, name="Pythagorean theorem", echo = TRUE}
+theorem and math environments \@ref(thm:pyth)
+
+```{theorem, pyth, name="Pythagorean theorem"}
 For a right triangle, if $c$ denotes the length of the hypotenuse
 and $a$ and $b$ denote the lengths of the other two sides, we have
 
@@ -58,13 +59,8 @@ $$a^2 + b^2 = c^2$$
 
 # Chapter 2
 
-\@ref(fig:diamond-plot)
-
-
-
-Here is a figure \@ref(fig:diamond-plot)
-
-```{r diamond-plot, fig.cap = "this is a figure"}
+cross referencing figures \@ref(fig:diamond-plot)
+```{r diamond-plot, fig.cap = "this is a figure", fig.height = 4}
 library(dplyr)
 library(ggplot2)
 
@@ -73,6 +69,14 @@ diamonds %>%
   ggplot() + 
   geom_point(aes(carat, price, color = cut)) + 
   theme_minimal()
+```
+
+
+
+cross referencing tables \@ref(tab:iris)
+
+```{r iris, echo = FALSE}
+knitr::kable(head(iris), caption = "my table")
 ```
 
 

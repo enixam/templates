@@ -1,0 +1,13 @@
+\begin{figure}[p]
+\includegraphics[width=1\linewidth]{oxford-press_files/figure-latex/diamond-1} \caption{this is a figure}\label{fig:diamond}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[p]
+\includegraphics[width=1\linewidth]{oxford-press_files/figure-latex/fig1-1} \caption{This is the first figure.}\label{fig:fig1}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[p]
+\includegraphics[width=1\linewidth]{oxford-press_files/figure-latex/fig2-1} \caption{This is the second figure.}\label{fig:fig2}
+\end{figure}

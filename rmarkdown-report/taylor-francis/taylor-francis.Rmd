@@ -24,6 +24,7 @@ header-includes: |
   \usepackage{hyperref}
   \usepackage[utf8]{inputenc}
   \def\tightlist{}
+geometry: margin=1cm
 output:
   bookdown::pdf_book:
     base_format: rticles::tf_article
@@ -61,11 +62,28 @@ diamonds %>%
 
 
 
+
+
+
+
+
 cross referencing tables \@ref(tab:iris)
 
 ```{r iris, echo = FALSE}
 knitr::kable(head(iris), caption = "my table")
 ```
+
+
+\begin{figure}
+\centering
+\subfigure[An example of an individual figure sub-caption.]{%
+\resizebox*{5cm}{!}{\includegraphics{`r knitr::fig_chunk('diamond-plot', 'pdf')`}}}\hspace{5pt}
+\subfigure[A slightly shorter sub-caption.]{%
+\resizebox*{5cm}{!}{\includegraphics{`r knitr::fig_chunk('pressure-plot', 'pdf')`}}}
+\caption{Example of a two-part figure with individual sub-captions
+ showing that captions are flush left and justified if greater
+ than one line of text.} \label{sample-figure}
+\end{figure}
 
 
 ## The \textsf{Interact} class file

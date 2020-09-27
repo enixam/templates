@@ -28,6 +28,7 @@ bibliography: mybibfile.bib
 #numbersections: true
 csl: elsevier-harvard.csl
 colorlinks: true
+geometry: "left=3cm,right=3cm,top=2cm,bottom=2cm"
 output: 
   bookdown::pdf_book:
     base_format: rticles::elsevier_article
@@ -35,6 +36,18 @@ output:
 ---
 
 _Text based on elsarticle sample manuscript, see [http://www.elsevier.com/author-schemas/latex-instructions#elsarticle](http://www.elsevier.com/author-schemas/latex-instructions#elsarticle)_
+
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  warning = FALSE,
+  message = FALSE,
+  comment = "#>",
+  collapse = TRUE,
+  fig.align = "center"
+)
+```
+
 
 
 The Elsevier article class

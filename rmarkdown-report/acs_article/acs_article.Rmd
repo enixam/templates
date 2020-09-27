@@ -27,16 +27,18 @@ output:
   bookdown::pdf_book:
     base_format: rticles::acs_article
     toc: true
+    includes:
+      in_header: header.tex
 ---
 
-It seems that this format does not allow showing code now. Set `echo = FALSE` globally. 
-
+The header.tex file enable this template to show code correctly. 
 
 # Introduction
 
 
 ```{r, include = FALSE}
-knitr::opts_chunk$set(echo = FALSE,
+knitr::opts_chunk$set(comment = "#>",
+                      collapse = TRUE, 
                       message = FALSE,
                       warning = FALSE,
                       fig.align = "center")
@@ -209,4 +211,5 @@ The quick brown fox jumped over the lazy dog.
 The quick brown fox jumped over the lazy dog.
 The quick brown fox jumped over the lazy dog.
 The quick brown fox jumped over the lazy dog.
-although 
+
+# References

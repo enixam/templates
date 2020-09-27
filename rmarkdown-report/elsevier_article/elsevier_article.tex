@@ -32,6 +32,7 @@
 \fi
 % use microtype if available
 \IfFileExists{microtype.sty}{\usepackage{microtype}}{}
+\usepackage[left=3cm,right=3cm,top=2cm,bottom=2cm]{geometry}
 \bibliographystyle{elsarticle-harv}
 \usepackage{color}
 \usepackage{fancyvrb}
@@ -74,7 +75,6 @@
 \newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
 \newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
 \usepackage{longtable}
-\usepackage{graphicx}
 \ifxetex
   \usepackage[setpagesize=false, % page size defined by xetex
               unicode=false, % unicode breaks when used with xetex
@@ -162,28 +162,6 @@ cross referencing figures \ref{fig:diamond-plot}
 \begin{Shaded}
 \begin{Highlighting}[]
 \KeywordTok{library}\NormalTok{(dplyr)}
-\end{Highlighting}
-\end{Shaded}
-
-\begin{verbatim}
-## 
-## Attaching package: 'dplyr'
-\end{verbatim}
-
-\begin{verbatim}
-## The following objects are masked from 'package:stats':
-## 
-##     filter, lag
-\end{verbatim}
-
-\begin{verbatim}
-## The following objects are masked from 'package:base':
-## 
-##     intersect, setdiff, setequal, union
-\end{verbatim}
-
-\begin{Shaded}
-\begin{Highlighting}[]
 \KeywordTok{library}\NormalTok{(ggplot2)}
 
 \NormalTok{diamonds }\OperatorTok{\%\textgreater{}\%}\StringTok{ }
@@ -195,9 +173,12 @@ cross referencing figures \ref{fig:diamond-plot}
 \end{Shaded}
 
 \begin{figure}
-\centering
-\includegraphics{elsevier_article_files/figure-latex/diamond-plot-1.pdf}
-\caption{\label{fig:diamond-plot}this is a figure}
+
+{\centering \includegraphics{elsevier_article_files/figure-latex/diamond-plot-1} 
+
+}
+
+\caption{this is a figure}\label{fig:diamond-plot}
 \end{figure}
 
 cross referencing tables \ref{tab:iris}

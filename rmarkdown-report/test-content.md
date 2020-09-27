@@ -8,10 +8,10 @@ knitr::opts_chunk$set(
   warning = FALSE,
   message = FALSE,
   comment = "#>",
-  collapse = FALSE
+  collapse = TRUE,
+  fig.align = "center"
 )
 ```
-
 
 # markdown elements
 

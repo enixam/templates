@@ -2,38 +2,36 @@
 title: "中文报告模板"
 author: "闫求识"
 date: "`r Sys.Date()`"
+documentclass: ctexart
 output:
   bookdown::pdf_book:
     base_format: rticles::ctex
     fig_caption: yes
     number_sections: yes
     toc: yes
-lof: true
-lot: true
-documentclass: ctexart
+# lof: true
+# lot: true
 geometry: margin=1.18in
-fontsize: 12pt
-linestretch: 1.5
-links-as-notes: yes
 bibliography: references.bib
 biblio-style: "apalike"
 link-citations: true
 colorlinks: true
-linkcolor: blue
 #nocite: '@*'
-classoption: a4paper,oneside
 ---
 
-使用前可能需要先将区域设置调整为中国
+使用前可能需要先将区域设置调整为中国, 或者在项目中添加 `.Rprofile` 文件设置 `Sys.setlocale(, "Chinese")`
 
 ```{r, include = FALSE}
 knitr::opts_chunk$set(fig.showtext=TRUE)
 ```
 
+@R-core
+
+https://qiushi.rbind.io
 
 # Markdown 书写
 
-这句话很**重要** ^[使用脚注] 
+这句话很**重要** ^[脚注] 
 
 > All models are wrong, but some are useful. 
 
@@ -42,6 +40,7 @@ knitr::opts_chunk$set(fig.showtext=TRUE)
 # 交叉引用
 
 图表 
+
 \@ref(fig:diamond-plot)
 
 ```{r diamond-plot, fig.cap = "一幅散点图", message = FALSE}

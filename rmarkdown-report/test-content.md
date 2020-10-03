@@ -74,7 +74,7 @@ This is a footnote ^[this is a footnote]
 
 
 
-# Others
+# Other things to check
 
 table of contents
 

@@ -6,13 +6,8 @@ date: "`r Sys.Date()`"
 output:
   bookdown::pdf_book:
     base_format: tufte::tufte_handout
-  # tufte::tufte_html: default
-  # tufte::tufte_handout:
-  #   citation_package: natbib
-  #   latex_engine: xelatex
-  tufte::tufte_book:
-    citation_package: natbib
-    latex_engine: xelatex
+    includes:
+      in_header: header.tex
 bibliography: skeleton.bib
 link-citations: yes
 ---

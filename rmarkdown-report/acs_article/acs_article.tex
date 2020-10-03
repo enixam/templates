@@ -4,7 +4,7 @@
 \newcommand*\mycommand[1]{\texttt{\emph{#1}}}
 
 
-\keywords{3 to 6 keywordsthat do not appear in the title}
+\keywords{3 to 6 keywords}
 
 \title[]{}
 \makeatletter
@@ -27,12 +27,6 @@
 % Make links footnotes instead of hotlinks:
 \renewcommand{\href}[2]{#2\footnote{\url{#1}}}
 
-\newlength{\cslhangindent}
-\setlength{\cslhangindent}{1.5em}
-\newenvironment{cslreferences}%
-  {\setlength{\parindent}{0pt}%
-  \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces}%
-  {\par}
 
 % pandoc header
 \usepackage{color}
@@ -95,10 +89,106 @@
 \begin{abstract}
 The text of your abstract. 200 or fewer words.
 \end{abstract}
-The heade.tex file enable this template to show code correctly.
+The header.tex file enable this template to show code correctly.
+
+\hypertarget{preface}{%
+\section{Preface}\label{preface}}
+
+\hypertarget{markdown-elements}{%
+\section{markdown elements}\label{markdown-elements}}
+
+normal content:
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, nulla? Magni quia quo eaque porro consequatur molestias ratione hic sapiente possimus totam omnis accusantium illum voluptatem esse cumque assumenda quidem, facere officiis, exercitationem architecto, nam excepturi similique. Vitae, quod non. Sunt dignissimos, saepe quidem cum atque eum commodi illo autem eaque dolor, aut vel quod veniam neque, unde natus. Veritatis accusamus voluptates nihil animi? Cumque omnis blanditiis eveniet earum adipisci architecto eum laudantium velit quos exercitationem, consectetur natus. Voluptatibus, quibusdam est assumenda veniam accusantium voluptatem, sed perspiciatis ea iure saepe tenetur repudiandae nobis nemo accusamus et provident aut illum ipsa tempore eius architecto distinctio perferendis laudantium ratione. Itaque, voluptates! Praesentium incidunt eos animi laboriosam modi ullam ut totam voluptate sit necessitatibus repellendus numquam iure quibusdam ea facere ratione laborum, impedit dolorem tempora! Vero, ea deleniti voluptas quasi ducimus molestiae. Inventore autem corrupti dolorum itaque nesciunt, tenetur esse ratione tempore. Molestiae mollitia numquam ea, ex fugit rem inventore quasi libero in officiis eaque nesciunt natus reprehenderit eos a. Laborum exercitationem, explicabo non ab vitae optio minima eveniet sapiente et ad a vero sed distinctio fugit harum numquam qui atque assumenda illo. Illo omnis vitae hic nemo quaerat officiis laudantium dolore earum!
+
+\textbf{bold}
+
+\emph{italic}
+
+quote
+
+\begin{quote}
+this is a block of quote
+\end{quote}
+
+\href{https://qiushi.rbind.io}{link}
+
+code
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{print}\NormalTok{(}\StringTok{"hello world"}\NormalTok{)}
+\CommentTok{#> [1] "hello world"}
+\end{Highlighting}
+\end{Shaded}
+
+table
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{knitr}\OperatorTok{::}\KeywordTok{kable}\NormalTok{(}\KeywordTok{head}\NormalTok{(iris))}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{tabular}{r|r|r|r|l}
+\hline
+Sepal.Length & Sepal.Width & Petal.Length & Petal.Width & Species\\
+\hline
+5.1 & 3.5 & 1.4 & 0.2 & setosa\\
+\hline
+4.9 & 3.0 & 1.4 & 0.2 & setosa\\
+\hline
+4.7 & 3.2 & 1.3 & 0.2 & setosa\\
+\hline
+4.6 & 3.1 & 1.5 & 0.2 & setosa\\
+\hline
+5.0 & 3.6 & 1.4 & 0.2 & setosa\\
+\hline
+5.4 & 3.9 & 1.7 & 0.4 & setosa\\
+\hline
+\end{tabular}
+
+\hypertarget{cross-referencing-special-environment-footnotes}{%
+\section{cross referencing, special environment, footnotes}\label{cross-referencing-special-environment-footnotes}}
+
+cross reference for figure \ref{fig:mtcars}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{plot}\NormalTok{(mtcars[}\DecValTok{1}\OperatorTok{:}\DecValTok{2}\NormalTok{])}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{figure}
+
+{\centering \includegraphics{acs_article_files/figure-latex/mtcars-1} 
+
+}
+
+\caption{this is a figrue}\label{fig:mtcars}
+\end{figure}
+
+cross reference for equation \eqref{eq:my-eq}
+
+\begin{equation}
+\label{eq:my-eq}
+a^2 + b^2 = c^2
+\end{equation}
+
+Theorem \ref{thm:my-theorem} shows what I want to tell you.
+
+\begin{theorem}[a fancy theorem of mine]
+\protect\hypertarget{thm:my-theorem}{}{\label{thm:my-theorem} \iffalse (a fancy theorem of mine) \fi{} }In fact, what I want to tell you is that this theorem is meaningless.
+\end{theorem}
+
+This is a footnote\footnote{this is a footnote}
 
 \hypertarget{introduction}{%
 \section{Introduction}\label{introduction}}
+
+table of contents
+
+subtitles
 
 This template demonstrates some of the basic latex you'll need to know to create a ASA article.
 
@@ -110,8 +200,8 @@ text looks like, for margins and spacing.
 
 Campbell and Austin (\protect\hyperlink{ref-Campbell02}{2002}) Schubert et al. (\protect\hyperlink{ref-Schubert13}{2013}; Chi, Feltovich, and Glaser \protect\hyperlink{ref-Chi81}{1981})
 
-\hypertarget{chapter-1}{%
-\section{Chapter 1}\label{chapter-1}}
+\hypertarget{discussion}{%
+\section{Discussion}\label{discussion}}
 
 math environments
 
@@ -127,8 +217,8 @@ and \(a\) and \(b\) denote the lengths of the other two sides, we have
 \[a^2 + b^2 = c^2\]
 \end{theorem}
 
-\hypertarget{chapter-2}{%
-\section{Chapter 2}\label{chapter-2}}
+\hypertarget{conclusion}{%
+\section{Conclusion}\label{conclusion}}
 
 cross referencing figures \ref{fig:diamond-plot}
 
@@ -137,11 +227,11 @@ cross referencing figures \ref{fig:diamond-plot}
 \KeywordTok{library}\NormalTok{(dplyr)}
 \KeywordTok{library}\NormalTok{(ggplot2)}
 
-\NormalTok{diamonds }\OperatorTok{\%\textgreater{}\%}\StringTok{ }
-\StringTok{  }\KeywordTok{slice\_sample}\NormalTok{(}\DataTypeTok{n =} \DecValTok{500}\NormalTok{) }\OperatorTok{\%\textgreater{}\%}
+\NormalTok{diamonds }\OperatorTok{%>%}\StringTok{ }
+\StringTok{  }\KeywordTok{slice_sample}\NormalTok{(}\DataTypeTok{n =} \DecValTok{500}\NormalTok{) }\OperatorTok{%>%}
 \StringTok{  }\KeywordTok{ggplot}\NormalTok{() }\OperatorTok{+}\StringTok{ }
-\StringTok{  }\KeywordTok{geom\_point}\NormalTok{(}\KeywordTok{aes}\NormalTok{(carat, price, }\DataTypeTok{color =}\NormalTok{ cut)) }\OperatorTok{+}\StringTok{ }
-\StringTok{  }\KeywordTok{theme\_minimal}\NormalTok{()}
+\StringTok{  }\KeywordTok{geom_point}\NormalTok{(}\KeywordTok{aes}\NormalTok{(carat, price, }\DataTypeTok{color =}\NormalTok{ cut)) }\OperatorTok{+}\StringTok{ }
+\StringTok{  }\KeywordTok{theme_minimal}\NormalTok{()}
 \end{Highlighting}
 \end{Shaded}
 
@@ -300,7 +390,6 @@ The quick brown fox jumped over the lazy dog.
 \addcontentsline{toc}{section}{References}
 
 \hypertarget{refs}{}
-\begin{cslreferences}
 \leavevmode\hypertarget{ref-Campbell02}{}%
 Campbell, Jamie I. D., and Shauna Austin. 2002. ``Effects of Response Time Deadlines on Adults' Strategy Choices for Simple Addition.'' \emph{Memory \& Cognition} 30 (6): 988--94.
 
@@ -309,5 +398,4 @@ Chi, Michelene T. H., Paul J. Feltovich, and Robert Glaser. 1981. ``Categorizati
 
 \leavevmode\hypertarget{ref-Schubert13}{}%
 Schubert, Christiane C, T Kent Denmark, Beth Crandall, Anna Grome, and James Pappas. 2013. ``Characterizing Novice-Expert Differences in Macrocognition: An Exploratory Study of Cognitive Work in the Emergency Department.'' \emph{Annals of Emergency Medicine} 61 (1): 96--109.
-\end{cslreferences}
 \end{document}

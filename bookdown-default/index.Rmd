@@ -13,4 +13,3 @@ github-repo: user/repo
 ---
 
 # Preface {-}
-

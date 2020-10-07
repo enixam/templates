@@ -1,15 +1,25 @@
 ---
 title: "Tint Is Not Tufte"
 subtitle: "An implementation in R Markdown"
+abstract: |
+  this is a abstract
+  
+  the second line 
 author: "JJ Allaire, Yihui Xie, Dirk Eddelbuettel"
 date: "`r Sys.Date()`"
-output: tint::tintPdf
 bibliography: skeleton.bib
 link-citations: yes
 latexfonts: 
   - package: mathptmx
   - package: FiraMono
-linkcolor: "0.3,0.3,0.6"
+output: 
+  bookdown::pdf_book:
+    base_format: tint::tintPdf
+    toc: FALSE
+    extra_dependencies: "subfig"
+    citation_package: natbib
+    includes:
+      in_header: header.tex
 ---
 
 ```{r setup, include=FALSE}
@@ -53,6 +63,13 @@ output:
   tufte::tufte_html: default
 ---
 ```
+
+```{r, fig.fullwidth=TRUE,fig.cap='Using the subfig package', fig.subcap=c('(a)', '(b)', '(c)'), fig.ncol = 2, out.width = "50%", fig.align = "center"}
+plot(1:10)
+plot(cars, pch = 19)
+boxplot(Sepal.Width ~ Species, data = iris)
+```
+
 
 There are two goals of this package:
 

@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.26)  3 OCT 2020 00:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.5)  7 OCT 2020 22:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **tufte.tex
 (./tufte.tex
-LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-09-24>
+LaTeX2e <2020-10-01>
+L3 programming layer <2020-09-24> xparse <2020-03-03>
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tufte-latex/tufte
 -handout.cls
 Document Class: tufte-handout 2015/06/21 v3.5.2 Tufte-handout class
@@ -28,7 +28,7 @@ s.tex
 
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xkeyval/keyval.
 tex))
-\XKV@depth=\count168
+\XKV@depth=\count175
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xifthen/xifthen.s
@@ -36,15 +36,15 @@ ty
 Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count169
-\calc@Bcount=\count170
-\calc@Adimen=\dimen134
-\calc@Bdimen=\dimen135
+\calc@Acount=\count176
+\calc@Bcount=\count177
+\calc@Adimen=\dimen138
+\calc@Bdimen=\dimen139
 \calc@Askip=\skip47
 \calc@Bskip=\skip48
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count171
+\calc@Ccount=\count178
 \calc@Cskip=\skip49
 ) (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
@@ -81,27 +81,27 @@ Package pdftexcmds Info: \pdfdraftmode found.
 ty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 )
-\hw@charcount=\count172
-\hw@wordcount=\count173
-\hw@maxprintline=\count174
+\hw@charcount=\count179
+\hw@wordcount=\count180
+\hw@maxprintline=\count181
 )
 Class tufte-handout Info: Loading the base class `article'
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
-\c@part=\count175
-\c@section=\count176
-\c@subsection=\count177
-\c@subsubsection=\count178
-\c@paragraph=\count179
-\c@subparagraph=\count180
-\c@figure=\count181
-\c@table=\count182
+\c@part=\count182
+\c@section=\count183
+\c@subsection=\count184
+\c@subsubsection=\count185
+\c@paragraph=\count186
+\c@subparagraph=\count187
+\c@figure=\count188
+\c@table=\count189
 \abovecaptionskip=\skip50
 \belowcaptionskip=\skip51
-\bibindent=\dimen136
+\bibindent=\dimen140
 )
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifpdf.sty
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
@@ -113,20 +113,20 @@ Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/titlesec/titlesec
 .sty
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
-\ttl@box=\box45
+\ttl@box=\box47
 \beforetitleunit=\skip52
 \aftertitleunit=\skip53
-\ttl@plus=\dimen137
-\ttl@minus=\dimen138
+\ttl@plus=\dimen141
+\ttl@minus=\dimen142
 \ttl@toksa=\toks17
-\titlewidth=\dimen139
-\titlewidthlast=\dimen140
-\titlewidthfirst=\dimen141
+\titlewidth=\dimen143
+\titlewidthlast=\dimen144
+\titlewidthfirst=\dimen145
 )
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/titlesec/titletoc
 .sty
 Package: titletoc 2019/10/16 v2.13 TOC entries
-\ttl@leftsep=\dimen142
+\ttl@leftsep=\dimen146
 )
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref
 .sty
@@ -160,9 +160,9 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 ns.sty
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 )
-\@linkdim=\dimen143
-\Hy@linkcounter=\count183
-\Hy@pagecounter=\count184
+\@linkdim=\dimen147
+\Hy@linkcounter=\count190
+\Hy@pagecounter=\count191
 
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.d
 ef
@@ -178,7 +178,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 ds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count185
+\Hy@SavedSpaceFactor=\count192
 Package hyperref Info: Option `unicode' set `true' on input line 4338.
 
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.de
@@ -195,13 +195,13 @@ Package hyperref Info: Plain pages OFF on input line 4479.
 Package hyperref Info: Backreferencing OFF on input line 4484.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4717.
-\c@Hy@tempcnt=\count186
+\c@Hy@tempcnt=\count193
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5076.
-\XeTeXLinkMargin=\dimen144
+\XeTeXLinkMargin=\dimen148
 
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/bitset/bitset.s
 ty
@@ -212,9 +212,9 @@ ntcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count187
-\Field@Width=\dimen145
-\Fld@charsize=\dimen146
+\Fld@menulength=\count194
+\Field@Width=\dimen149
+\Fld@charsize=\dimen150
 Package hyperref Info: Hyper figures OFF on input line 6347.
 Package hyperref Info: Link nesting OFF on input line 6352.
 Package hyperref Info: Hyper index ON on input line 6355.
@@ -225,12 +225,14 @@ Package hyperref Info: PDF/A mode OFF on input line 6377.
 LaTeX Info: Redefining \ref on input line 6417.
 LaTeX Info: Redefining \pageref on input line 6421.
 
-(c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/atbegshi/atbegs
-hi.sty
-Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+(c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/atbegshi-ltx
+.sty
+Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
+ge
+with kernel methods
 )
-\Hy@abspage=\count188
-\c@Item=\count189
+\Hy@abspage=\count195
+\c@Item=\count196
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -238,13 +240,14 @@ Package hyperref Info: Driver (autodetected): hpdftex.
 def
 File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
 
-(c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/atveryend/atverye
-nd.sty
-Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
-Package atveryend Info: \enddocument detected (standard20110627).
+(c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/atveryend-lt
+x.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
+e
+with kernel methods
 )
-\Fld@listcount=\count190
-\c@bookmark@seq@number=\count191
+\Fld@listcount=\count197
+\c@bookmark@seq@number=\count198
 
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/re
 runfilecheck.sty
@@ -288,24 +291,24 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 y
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count192
-\Gm@cntv=\count193
-\c@Gm@tempcnt=\count194
-\Gm@bindingoffset=\dimen147
-\Gm@wd@mp=\dimen148
-\Gm@odd@mp=\dimen149
-\Gm@even@mp=\dimen150
-\Gm@layoutwidth=\dimen151
-\Gm@layoutheight=\dimen152
-\Gm@layouthoffset=\dimen153
-\Gm@layoutvoffset=\dimen154
+\Gm@cnth=\count199
+\Gm@cntv=\count266
+\c@Gm@tempcnt=\count267
+\Gm@bindingoffset=\dimen151
+\Gm@wd@mp=\dimen152
+\Gm@odd@mp=\dimen153
+\Gm@even@mp=\dimen154
+\Gm@layoutwidth=\dimen155
+\Gm@layoutheight=\dimen156
+\Gm@layouthoffset=\dimen157
+\Gm@layoutvoffset=\dimen158
 \Gm@dimlist=\toks18
 )
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/changepage/change
 page.sty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
-\c@cp@cntr=\count195
-\cp@tempcnt=\count196
+\c@cp@cntr=\count268
+\cp@tempcnt=\count269
 )
 \@tufte@overhang=\skip69
 \@tufte@fullwidth=\skip70
@@ -368,14 +371,14 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip76
 \bibsep=\skip77
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count197
+\c@NAT@ctr=\count270
 )
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/natbib/bibentry.s
 ty
 Package: bibentry 2007/10/30 1.5 (PWD)
 )
 No file tufte.bbl.
-\c@@tufte@num@bibkeys=\count198
+\c@@tufte@num@bibkeys=\count271
 
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/sauerj/optparams.
 sty
@@ -387,9 +390,9 @@ Package: optparams 2004/08/14 v0.9 multiple optional parameters in macros
 .sty
 Package: placeins 2005/04/18  v 2.2
 )
-\@tufte@margin@floatbox=\box46
-\@tufte@figure@box=\box47
-\@tufte@caption@box=\box48
+\@tufte@margin@floatbox=\box48
+\@tufte@figure@box=\box49
+\@tufte@caption@box=\box50
 \@tufte@caption@vertical@offset=\skip79
 \@tufte@float@contents@width=\skip80
 
@@ -402,7 +405,7 @@ Package: mathpazo 2020/03/25 PSNFSS-v9.3 Palatino w/ Pazo Math (D.Puga, WaS)
 Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
 ) (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/fontenc.st
 y
-Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
 LaTeX Font Info:    Trying to load font information for T1+pplj on input line 1
 12.
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/t1pplj.fd
@@ -430,29 +433,27 @@ s
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/multicol.st
 y
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
-\c@tracingmulticols=\count199
-\mult@box=\box49
-\multicol@leftmargin=\dimen155
-\c@unbalance=\count266
-\c@collectmore=\count267
-\doublecol@number=\count268
-\multicoltolerance=\count269
-\multicolpretolerance=\count270
-\full@width=\dimen156
-\page@free=\dimen157
-\premulticols=\dimen158
-\postmulticols=\dimen159
+\c@tracingmulticols=\count272
+\mult@box=\box51
+\multicol@leftmargin=\dimen159
+\c@unbalance=\count273
+\c@collectmore=\count274
+\doublecol@number=\count275
+\multicoltolerance=\count276
+\multicolpretolerance=\count277
+\full@width=\dimen160
+\page@free=\dimen161
+\premulticols=\dimen162
+\postmulticols=\dimen163
 \multicolsep=\skip91
 \multicolbaselineskip=\skip92
-\partial@page=\box50
-\last@line=\box51
-\maxbalancingoverflow=\dimen160
-\mult@rightbox=\box52
-\mult@grightbox=\box53
-\mult@gfirstbox=\box54
-\mult@firstbox=\box55
-\@tempa=\box56
-\@tempa=\box57
+\partial@page=\box52
+\last@line=\box53
+\maxbalancingoverflow=\dimen164
+\mult@rightbox=\box54
+\mult@grightbox=\box55
+\mult@gfirstbox=\box56
+\mult@firstbox=\box57
 \@tempa=\box58
 \@tempa=\box59
 \@tempa=\box60
@@ -488,15 +489,17 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \@tempa=\box90
 \@tempa=\box91
 \@tempa=\box92
-\c@minrows=\count271
-\c@columnbadness=\count272
-\c@finalcolumnbadness=\count273
-\last@try=\dimen161
-\multicolovershoot=\dimen162
-\multicolundershoot=\dimen163
-\mult@nat@firstbox=\box93
-\colbreak@box=\box94
-\mc@col@check@num=\count274
+\@tempa=\box93
+\@tempa=\box94
+\c@minrows=\count278
+\c@columnbadness=\count279
+\c@finalcolumnbadness=\count280
+\last@try=\dimen165
+\multicolovershoot=\dimen166
+\multicolundershoot=\dimen167
+\mult@nat@firstbox=\box95
+\colbreak@box=\box96
+\mc@col@check@num=\count281
 )))
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb.
 sty
@@ -514,7 +517,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 ))
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.s
 ty
-Package: amsmath 2020/01/20 v2.17e AMS math features
+Package: amsmath 2020/09/23 v2.17i AMS math features
 \@mathmargin=\skip93
 For additional information on amsmath, use the `?' option.
 
@@ -526,54 +529,54 @@ Package: amstext 2000/06/29 v2.01 AMS text
 y
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks21
-\ex@=\dimen164
+\ex@=\dimen168
 ))
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.st
 y
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen165
+\pmbraise@=\dimen169
 )
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.st
 y
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count275
-LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count276
-\leftroot@=\count277
-LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count278
-\DOTSCASE@=\count279
-LaTeX Info: Redefining \ldots on input line 486.
-LaTeX Info: Redefining \dots on input line 489.
-LaTeX Info: Redefining \cdots on input line 610.
-\Mathstrutbox@=\box95
-\strutbox@=\box96
-\big@size=\dimen166
-LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count280
-\c@MaxMatrixCols=\count281
+\inf@bad=\count282
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count283
+\leftroot@=\count284
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count285
+\DOTSCASE@=\count286
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box97
+\strutbox@=\box98
+\big@size=\dimen170
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count287
+\c@MaxMatrixCols=\count288
 \dotsspace@=\muskip17
-\c@parentequation=\count282
-\dspbrk@lvl=\count283
+\c@parentequation=\count289
+\dspbrk@lvl=\count290
 \tag@help=\toks22
-\row@=\count284
-\column@=\count285
-\maxfields@=\count286
+\row@=\count291
+\column@=\count292
+\maxfields@=\count293
 \andhelp@=\toks23
-\eqnshift@=\dimen167
-\alignsep@=\dimen168
-\tagshift@=\dimen169
-\tagwidth@=\dimen170
-\totwidth@=\dimen171
-\lineht@=\dimen172
+\eqnshift@=\dimen171
+\alignsep@=\dimen172
+\tagshift@=\dimen173
+\tagwidth@=\dimen174
+\totwidth@=\dimen175
+\lineht@=\dimen176
 \@envbody=\toks24
 \multlinegap=\skip94
 \multlinetaggap=\skip95
 \mathdisplay@stack=\toks25
-LaTeX Info: Redefining \[ on input line 2859.
-LaTeX Info: Redefining \] on input line 2860.
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
 )
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/fixltx2e.sty
 Package: fixltx2e 2016/12/29 v2.1a fixes to LaTeX (obsolete)
@@ -586,20 +589,20 @@ Package fixltx2e Warning: fixltx2e is not required with releases after 2015
 Already applied: [0000/00/00] Old fixltx2e package on input line 53.
 ) (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/fontenc.st
 y
-Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
 )
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2018/08/11 v1.3c Input encoding file
+Package: inputenc 2020/08/01 v1.3d Input encoding file
 \inpenc@prehook=\toks26
 \inpenc@posthook=\toks27
 )
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/graphicx
 .sty
-Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
 
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/graphics
 .sty
-Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
 
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
@@ -610,29 +613,29 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
 )
-\Gin@req@height=\dimen173
-\Gin@req@width=\dimen174
+\Gin@req@height=\dimen177
+\Gin@req@width=\dimen178
 )
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/booktabs/booktabs
 .sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen175
-\lightrulewidth=\dimen176
-\cmidrulewidth=\dimen177
-\belowrulesep=\dimen178
-\belowbottomsep=\dimen179
-\aboverulesep=\dimen180
-\abovetopsep=\dimen181
-\cmidrulesep=\dimen182
-\cmidrulekern=\dimen183
-\defaultaddspace=\dimen184
-\@cmidla=\count287
-\@cmidlb=\count288
-\@aboverulesep=\dimen185
-\@belowrulesep=\dimen186
-\@thisruleclass=\count289
-\@lastruleclass=\count290
-\@thisrulewidth=\dimen187
+\heavyrulewidth=\dimen179
+\lightrulewidth=\dimen180
+\cmidrulewidth=\dimen181
+\belowrulesep=\dimen182
+\belowbottomsep=\dimen183
+\aboverulesep=\dimen184
+\abovetopsep=\dimen185
+\cmidrulesep=\dimen186
+\cmidrulekern=\dimen187
+\defaultaddspace=\dimen188
+\@cmidla=\count294
+\@cmidlb=\count295
+\@aboverulesep=\dimen189
+\@belowrulesep=\dimen190
+\@thisruleclass=\count296
+\@lastruleclass=\count297
+\@thisrulewidth=\dimen191
 ) (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/units/units.sty
 Package: units 1998/08/04 v0.9b Typesetting units
 
@@ -646,11 +649,11 @@ Package: nicefrac 1998/08/04 v0.9b Nice fractions
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fancyvrb/fancyvrb
 .sty
 Package: fancyvrb 2020/05/03 v3.6 verbatim text (tvz,hv)
-\FV@CodeLineNo=\count291
+\FV@CodeLineNo=\count298
 \FV@InFile=\read2
-\FV@TabBox=\box97
-\c@FancyVerbLine=\count292
-\FV@StepNumber=\count293
+\FV@TabBox=\box99
+\c@FancyVerbLine=\count299
+\FV@StepNumber=\count300
 \FV@OutFile=\write3
 )
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/longtable.s
@@ -660,28 +663,28 @@ Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \LTright=\skip100
 \LTpre=\skip101
 \LTpost=\skip102
-\LTchunksize=\count294
-\LTcapwidth=\dimen188
-\LT@head=\box98
-\LT@firsthead=\box99
-\LT@foot=\box100
-\LT@lastfoot=\box101
-\LT@cols=\count295
-\LT@rows=\count296
-\c@LT@tables=\count297
-\c@LT@chunks=\count298
+\LTchunksize=\count301
+\LTcapwidth=\dimen192
+\LT@head=\box100
+\LT@firsthead=\box101
+\LT@foot=\box102
+\LT@lastfoot=\box103
+\LT@cols=\count302
+\LT@rows=\count303
+\c@LT@tables=\count304
+\c@LT@chunks=\count305
 \LT@p@ftn=\toks28
 ) (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/ulem/ulem.sty
-\UL@box=\box102
-\UL@hyphenbox=\box103
+\UL@box=\box104
+\UL@hyphenbox=\box105
 \UL@skip=\skip103
 \UL@hook=\toks29
-\UL@height=\dimen189
-\UL@pe=\count299
-\UL@pixel=\dimen190
-\ULC@box=\box104
+\UL@height=\dimen193
+\UL@pe=\count306
+\UL@pixel=\dimen194
+\ULC@box=\box106
 Package: ulem 2019/11/18
-\ULdepth=\dimen191
+\ULdepth=\dimen195
 )
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/morefloats/morefl
 oats.sty
@@ -696,8 +699,8 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 119.
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backe
 nd-pdftex.def
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
-\l__kernel_color_stack_int=\count300
-\l__pdf_internal_box=\box105
+\l__kernel_color_stack_int=\count307
+\l__pdf_internal_box=\box107
 ) (./tufte.aux)
 \openout1 = `tufte.aux'.
 
@@ -719,7 +722,6 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 121.
 LaTeX Font Info:    ... okay on input line 121.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 121.
 LaTeX Font Info:    ... okay on input line 121.
-\AtBeginShipoutBox=\box106
 Package hyperref Info: Link coloring ON on input line 121.
 
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.
@@ -734,7 +736,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count301
+\c@section@level=\count308
 )
 LaTeX Info: Redefining \ref on input line 121.
 LaTeX Info: Redefining \pageref on input line 121.
@@ -779,20 +781,21 @@ LaTeX Info: Redefining \selectfont on input line 121.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+\langwohyphens=\language5
 
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/context/base/mkii/supp-
 pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count302
-\scratchdimen=\dimen192
-\scratchbox=\box107
-\nofMPsegments=\count303
-\nofMParguments=\count304
+\scratchcounter=\count309
+\scratchdimen=\dimen196
+\scratchbox=\box108
+\nofMPsegments=\count310
+\nofMParguments=\count311
 \everyMPshowfont=\toks30
-\MPscratchCnt=\count305
-\MPscratchDim=\dimen193
-\MPnumerator=\count306
-\makeMPintoPDFobject=\count307
+\MPscratchCnt=\count312
+\MPscratchDim=\dimen197
+\MPnumerator=\count313
+\makeMPintoPDFobject=\count314
 \everyMPtoPDFconversion=\toks31
 )
 (c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epst
@@ -805,9 +808,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 pdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
-))
-\langwohyphens=\language5
-(./tufte.toc)
+)) (./tufte.toc)
 \tf@toc=\write5
 \openout5 = `tufte.toc'.
 
@@ -1124,29 +1125,23 @@ Package bibentry Warning: You have used \nobibliography*
 (bibentry)                without a following \bibliography.
 (bibentry)                You may not be able to run BibTeX.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 645.
 
 Class tufte-handout Warning: Proper spacing of small-caps letters has not been 
 set up.
 This message occurred on input line 645.
 
-[12]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 645.
-(./tufte.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 645.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 645.
+[12] (./tufte.aux)
 Package rerunfilecheck Info: File `tufte.out' has not changed.
 (rerunfilecheck)             Checksum: 2FC2A16EBBCB2EFFD5D2521F7900058D;1020.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 645.
  ) 
 Here is how much of TeX's memory you used:
- 14067 strings out of 482798
- 207981 string characters out of 5953241
- 485714 words of memory out of 5000000
- 29044 multiletter control sequences out of 15000+600000
+ 14055 strings out of 481861
+ 208882 string characters out of 5929205
+ 528608 words of memory out of 5000000
+ 29965 multiletter control sequences out of 15000+600000
  606322 words of font info for 142 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 55i,11n,51p,1147b,515s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 77i,11n,85p,1147b,522s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.e
 nc} <c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen
 /ec/ecit1000.600pk> <c:/Users/Lenovo/AppData/Roaming/TinyTeX/texmf-var/fonts/pk

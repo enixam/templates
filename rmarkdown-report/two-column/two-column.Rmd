@@ -1,16 +1,22 @@
 ---
 title: "A custom two column layout for report"
+subtitle: "a subtitle"
 author: "Qiushi Yan"
+abstract: |
+  "This is a abstract"
 documentclass: article
 classoption:
   - twocolumn
 linestretch: 1.5
-fontsize: 12pt
+fontsize: 11pt
 links-as-notes: true
 link-citations: true
+bibliography: references.bib
+geometry: "margin=1in"
 output:
   bookdown::pdf_book: 
     base_format: rmarkdown::pdf_document
+    citation_package: natbib
     includes:
       in_header: header.tex
 ---
@@ -31,6 +37,26 @@ knitr::opts_chunk$set(
 ```
 
 # markdown elements
+
+```{definition brier, name = "brier"}
+
+
+$$
+S = p_o^2 + \|p \|_2^2  
+$$
+```
+
+reference definition \@ref(def:brier)
+
+multiline equation
+
+$$
+\begin{split}
+(a + b)^2 &= (a + b)(a + b) \\
+&= a^2 + 2ab + b^2
+\end{split}
+$$
+
 
 normal content: 
 
@@ -54,12 +80,7 @@ code
 print("hello world")
 ```
 
-
-table 
-
-```{r}
-knitr::kable(head(iris))
-```
+## Another section
 
 
 # cross referencing, special environment, footnotes
@@ -96,3 +117,5 @@ This is a footnote ^[this is a footnote]
 table of contents
 
 subtitles
+
+## Yet another section

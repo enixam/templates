@@ -72,7 +72,6 @@
 \usepackage[utf8]{inputenc}
 \def\tightlist{}
 
-
 \begin{document}
 
 \articletype{ARTICLE TEMPLATE}
@@ -147,11 +146,11 @@ cross referencing figures \ref{fig:diamond-plot}
 \begin{Highlighting}[]
 \KeywordTok{library}\NormalTok{(ggplot2)}
 
-\NormalTok{diamonds }\OperatorTok{\%\textgreater{}\%}\StringTok{ }
-\StringTok{  }\KeywordTok{slice\_sample}\NormalTok{(}\DataTypeTok{n =} \DecValTok{500}\NormalTok{) }\OperatorTok{\%\textgreater{}\%}
+\NormalTok{diamonds }\OperatorTok{%>%}\StringTok{ }
+\StringTok{  }\KeywordTok{slice_sample}\NormalTok{(}\DataTypeTok{n =} \DecValTok{500}\NormalTok{) }\OperatorTok{%>%}
 \StringTok{  }\KeywordTok{ggplot}\NormalTok{() }\OperatorTok{+}\StringTok{ }
-\StringTok{  }\KeywordTok{geom\_point}\NormalTok{(}\KeywordTok{aes}\NormalTok{(carat, price, }\DataTypeTok{color =}\NormalTok{ cut)) }\OperatorTok{+}\StringTok{ }
-\StringTok{  }\KeywordTok{theme\_minimal}\NormalTok{()}
+\StringTok{  }\KeywordTok{geom_point}\NormalTok{(}\KeywordTok{aes}\NormalTok{(carat, price, }\DataTypeTok{color =}\NormalTok{ cut)) }\OperatorTok{+}\StringTok{ }
+\StringTok{  }\KeywordTok{theme_minimal}\NormalTok{()}
 \end{Highlighting}
 \end{Shaded}
 

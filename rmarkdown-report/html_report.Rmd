@@ -6,7 +6,6 @@ date: "`r Sys.Date()`"
 bibliography: references.bib
 biblio-style: "apalike"
 link-citations: true
-links-as-notes: yes
 output: 
   bookdown::html_document2:
     toc: true
@@ -20,8 +19,19 @@ output:
 
 # Section 1
 
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam porro aspernatur laboriosam nobis obcaecati sed illum excepturi atque inventore officiis blanditiis, dolore eos quod error nihil maxime. A ad omnis praesentium pariatur sint vel nulla eaque. Maxime, sunt alias incidunt at atque, deserunt ullam, commodi molestiae ducimus molestias minima delectus eveniet! Iste, inventore temporibus, facere amet et, omnis perferendis voluptates sit assumenda quae at tempora! Adipisci vitae repellat rerum aspernatur quos mollitia aut inventore incidunt consectetur nihil aperiam, blanditiis perferendis enim sunt ipsam quod a animi doloremque at amet, similique totam? Id maiores nulla sapiente inventore qui ad exercitationem doloribus optio quaerat libero aut, dolorum odio porro numquam totam praesentium repellat dignissimos earum molestiae in eveniet dolore quam. Odio ab, fugiat quae autem a sequi quis ipsa repellendus aperiam illo dolores iure totam tempore deleniti assumenda atque, ipsam est quisquam et eligendi laudantium veniam earum adipisci. Perferendis libero deserunt minus at repellendus error sequi facere pariatur! Praesentium totam dolores sunt suscipit voluptatem eligendi numquam odio perspiciatis placeat mollitia neque, veniam corporis aperiam ex quas? Cupiditate laborum veniam assumenda quia nulla! Nobis, aspernatur. Repellendus laborum odio corrupti ea obcaecati quod ab quos, sequi laboriosam vitae quam earum quia alias sed id?
+
+```{r}
+summary(cars)
+```
+
 
 # Section 2
+
+
+```{r, fig.cap = "this is my figure"}
+plot(cars)
+```
 
 
 # Section 3

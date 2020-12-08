@@ -42,6 +42,8 @@ h1.title {
   margin-top: 10px;
 }
 
+
+/* style code block */
 p code {
   white-space: inherit;
 }
@@ -60,6 +62,27 @@ pre code {
 p.flushright {
   text-align: right;
 }
+
+/* style blockquote */
+blockquote {
+  border-left: 0.3rem solid skyblue;
+  box-shadow: inset 0 -0.3rem #0462a1;
+  width: 80%;
+  margin: 2em auto !important;
+  
+}
+
+blockquote > p:last-child {
+  font-size: 14px !important;
+  margin-top: -1em !important;
+}
+
+blockquote > p:first-child {
+  text-align: inherit;
+  font-style: italic;
+}
+
+
 
 /* custom block formatting --------------------------------------------*/
 
@@ -197,26 +220,6 @@ div.rmdtip::before {
   text-align: right;
 }
 
-
-blockquote {
-  width: 80%;
-  margin: 2em auto !important;
-}
-
-blockquote p {
-  color: #ce253e;
-  text-align: right;
-}
-
-blockquote > p:last-child {
-  font-size: 14px !important;
-  margin-top: -1em !important;
-}
-
-blockquote > p:first-child {
-  text-align: inherit;
-  font-style: italic;
-}
 
 
 .header-section-number {

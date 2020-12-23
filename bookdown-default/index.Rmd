@@ -1,5 +1,5 @@
 --- 
-title: "An bookdown template"
+title: "A bookdown template"
 author: "Qiushi Yan"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site

@@ -9,6 +9,6 @@ knitr::opts_chunk$set(
   fig.width = 8,
   fig.asp = 0.618,  # 1 / phi
   fig.align = "center",
-  message = F,
-  warning = F
+  message = FALSE,
+  warning = FALSE
 )

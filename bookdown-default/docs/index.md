@@ -1,7 +1,7 @@
 --- 
 title: "A bookdown template"
 author: "Qiushi Yan"
-date: "`r Sys.Date()`"
+date: "2021-01-13"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [references.bib, packages.bib]
@@ -14,3 +14,16 @@ github-repo: user/repo
 
 # Preface {-}
 
+$$
+\E{X + 1}
+$$
+
+$$
+\mean{x} \\
+\var{A}
+$$
+
+
+$$
+\argmax _x {x + 1}
+$$

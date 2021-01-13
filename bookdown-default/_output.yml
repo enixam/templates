@@ -13,3 +13,6 @@ bookdown::gitbook:
     edit:
       link: https://github.com/user/repo/edit/master/%s
       text: "Edit"
+  includes:
+    before_body: includes/before_body.html
+

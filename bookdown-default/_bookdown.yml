@@ -1,5 +1,6 @@
 new_session: yes
 book_filename: "my_book"
+rmd_subdir: false
 delete_merged_file: true
 language:
   ui:
